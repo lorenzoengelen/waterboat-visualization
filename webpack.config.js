@@ -20,7 +20,7 @@ module.exports = {
     rules: [
       {
         use: 'babel-loader',
-        test: /\.jsx$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/
       },
       {
@@ -30,7 +30,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.optimize.CommonChunkPlugin({
+    new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'manifest']
     }),
     new HtmlWebpackPlugin({
