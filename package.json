@@ -2,7 +2,7 @@
   "name": "visualization",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "clean": "rimraf dist",
     "build": "NODE_ENV=production npm run clean && webpack -p",
@@ -14,7 +14,8 @@
   "dependencies": {
     "express": "^4.14.1",
     "lodash": "^4.17.4",
-    "react": "^15.4.2"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
