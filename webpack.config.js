@@ -4,7 +4,8 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const VENDOR_LIBS = [
   'react',
-  'lodash'
+  'lodash',
+  'd3'
 ];
 
 module.exports = {
