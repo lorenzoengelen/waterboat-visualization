@@ -3,19 +3,29 @@ import ReactDOM from 'react-dom';
 import d3 from 'd3';
 
 import Gapi from './Gapi.jsx';
+import Gmap from './Gmap.jsx';
 
 class Cmap extends Component {
   componentDidMount() {
-    console.log(this.props);
+    
   }
 
   render() {
+    const style = {
+      width: '100vw',
+      height: '50vh'
+    };
+
     if (!this.props.loaded) {
-      return <div>The map is loading...</div>;
+      return (
+        <div>The map is loading</div>
+      );
     }
-    console.log(this.props);
+    
     return (
-      <div>The map wil go here...</div>
+      <div style={style}>
+        <Gmap />
+      </div>
     );
   }
 };

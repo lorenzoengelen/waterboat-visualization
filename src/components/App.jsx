@@ -4,12 +4,6 @@ import Cmap from './Cmap.jsx';
 
 class App extends Component {
   render() {
-
-    const style = {
-      width: '100vw',
-      height: '50vh'
-    };
-
     return (
       <div className='app'>
 
@@ -27,7 +21,7 @@ class App extends Component {
           <div className='row'>
             <div className='col-xs-8'>
               <div className='row'>
-                <div style={style}>
+                <div>
                   <Cmap />
                 </div>
               </div>
