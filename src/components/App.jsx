@@ -4,10 +4,15 @@ import Cmap from './Cmap.jsx';
 
 class App extends Component {
   render() {
+    const navStyle = {
+      borderRadius: 0,
+      marginBottom: 0
+    };
+
     return (
       <div className='app'>
 
-        <nav className="navbar navbar-default" style={{borderRadius: 0}}>
+        <nav className="navbar navbar-default" style={navStyle}>
           <div className="container-fluid">
             <div className="navbar-header">
               <a className="navbar-brand" href="#">
