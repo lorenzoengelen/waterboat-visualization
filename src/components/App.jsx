@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Gmap from './Gmap.jsx';
+
 class App extends Component {
   render() {
     return (
@@ -19,7 +21,7 @@ class App extends Component {
           <div className='row'>
             <div className='col-xs-8'>
               <div className='row'>
-                <h1>Google map here</h1>
+                <Gmap />
               </div>
               <div className='row'>
                 <h1>Timeline here</h1>
@@ -30,7 +32,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        
+
       </div>
     );
   }
