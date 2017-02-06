@@ -1,0 +1,55 @@
+{
+  "mmsi": "244670999",
+  "eni": "2307653",
+  "category": "BARGE",
+  "location": {
+    "latitude": 51.90233,
+    "longitude": 4.43356,
+    "coordinates": [
+      4.43356,
+      51.90233
+    ],
+    "type": "Point"
+  },
+  "courseOverGround": 72.5,
+  "timeLastUpdate": 1486372317000,
+  "name": "WATERBOOT 1",
+  "shipType": "TANKER",
+  "status": "UNDEFINED",
+  "speedOverGround": 5.5,
+  "callSign": "PH3764",
+  "coms": 0,
+  "extras": {
+    "coms": 0
+  },
+  "trueHeading": 511,
+  "positionOfTransponder": {
+    "distanceToBow": 19,
+    "distanceToStern": 8,
+    "distanceToPort": 2,
+    "distanceToStarboard": 5
+  },
+  "eta": 1480554000000,
+  "maxDraught": 0,
+  "destination": "",
+  "userProfileAssociated": false,
+  "role": "WATER",
+  "locationStern": {
+    "latitude": 51.9022955000294,
+    "longitude": 4.433455366533661,
+    "coordinates": [
+      4.433455366533661,
+      51.9022955000294
+    ],
+    "type": "Point"
+  },
+  "locationBow": {
+    "latitude": 51.90236851609486,
+    "longitude": 4.433830693683224,
+    "coordinates": [
+      4.433830693683224,
+      51.90236851609486
+    ],
+    "type": "Point"
+  }
+}

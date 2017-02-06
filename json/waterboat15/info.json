@@ -1,0 +1,55 @@
+{
+  "mmsi": "244670996",
+  "eni": "2310060",
+  "category": "BARGE",
+  "location": {
+    "latitude": 51.96557,
+    "longitude": 4.00332,
+    "coordinates": [
+      4.00332,
+      51.96557
+    ],
+    "type": "Point"
+  },
+  "courseOverGround": 73.5,
+  "timeLastUpdate": 1486372825000,
+  "name": "WATERBOOT 15",
+  "shipType": "OTHER_TYPE",
+  "status": "UNDER_WAY_USING_ENGINE",
+  "speedOverGround": 0,
+  "callSign": "PD7222",
+  "coms": 0,
+  "extras": {
+    "coms": 0
+  },
+  "trueHeading": 511,
+  "positionOfTransponder": {
+    "distanceToBow": 0,
+    "distanceToStern": 0,
+    "distanceToPort": 0,
+    "distanceToStarboard": 0
+  },
+  "eta": 1480464000000,
+  "maxDraught": 0,
+  "destination": "",
+  "userProfileAssociated": false,
+  "role": "WATER",
+  "locationStern": {
+    "latitude": 51.96557,
+    "longitude": 4.00332,
+    "coordinates": [
+      4.00332,
+      51.96557
+    ],
+    "type": "Point"
+  },
+  "locationBow": {
+    "latitude": 51.96557,
+    "longitude": 4.00332,
+    "coordinates": [
+      4.00332,
+      51.96557
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,5564 @@
+[
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1483342033494,
+    "endTime": 1483342033494,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1ca758f7-1857-4e7b-a057-a2211d280466",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "endTime": 1483342074084,
+    "shipMmsi": "244670996",
+    "endEventUuid": "e012666e-e1af-4c08-8a3d-e48537b57bcd",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483342591189,
+    "shipMmsi": "244670996",
+    "endEventUuid": "b703ecf8-18e3-4e5f-aaa9-e8516b1fe05f",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1483343359517,
+    "endTime": 1483349274516,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1f090e5b-a2ce-4d08-948d-1d39493d1387",
+    "endEventUuid": "78c7f3f2-4ec3-4010-8519-92ebb2f3ad00",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483343473496,
+    "endTime": 1483343473496,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8e60511d-1c8f-4960-b43b-ff71373fe5f6",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483343616596,
+    "endTime": 1483344136316,
+    "shipMmsi": "248811000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "a720a731-7ebe-46c1-a124-de398683cc8d",
+    "endEventUuid": "da716585-c6a4-4b57-b967-14fd442c78f7",
+    "title": "water WATERBOOT 15 is alongside MSC JOY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "endTime": 1483343698731,
+    "shipMmsi": "244670996",
+    "endEventUuid": "9e73889c-75eb-4cf5-aed9-ccc971745a2d",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483343699409,
+    "endTime": 1483349159046,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f7c904b8-217b-46cc-8193-7b58715b249e",
+    "endEventUuid": "2d004597-43c4-4dbd-b03b-fcd8607bb7e6",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483344916592,
+    "endTime": 1483349206312,
+    "shipMmsi": "248811000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "1a4c87a3-d760-44a2-b151-838ee61678f3",
+    "endEventUuid": "91fb4c87-47f2-4559-b544-9dfcc531daa4",
+    "title": "water WATERBOOT 15 is alongside MSC JOY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483348443728,
+    "endTime": 1483348833731,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b81e8da9-00a0-41e6-ac7e-4f0ed50b6238",
+    "endEventUuid": "ade07757-cb8b-49be-8a30-76e2486b7df8",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483349113471,
+    "endTime": 1483349113471,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f2b59a99-bf54-4785-8467-ef77ef9da823",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483349158733,
+    "endTime": 1483351238729,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c15723a1-ffba-46c6-ab74-842c401c7fd4",
+    "endEventUuid": "3b7ff03e-82c4-4c66-b7d6-9687b1b98404",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483349741196,
+    "shipMmsi": "244670996",
+    "endEventUuid": "11c6ee4b-607d-430c-901c-f4d3c59ec490",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483350506614,
+    "endTime": 1483359166587,
+    "shipMmsi": "218781000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "769dab96-5c77-461b-83fd-d60de71b5ac0",
+    "endEventUuid": "51db7e1a-7f3a-454f-8dee-ace267521798",
+    "title": "water WATERBOOT 15 is alongside INNOVATION",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483350553458,
+    "endTime": 1483350553458,
+    "shipMmsi": "244670996",
+    "startEventUuid": "11d7d26d-fbe2-48f9-9c1b-6b5239436dc8",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483351759055,
+    "endTime": 1483359126183,
+    "shipMmsi": "244670996",
+    "startEventUuid": "740651ae-82c7-46e5-9a4a-dcd0bc915999",
+    "endEventUuid": "b63040f4-bca1-4e2b-9abf-f20fa9ad67c8",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483358800589,
+    "endTime": 1483361465590,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6148fa8c-27ae-4711-8c3f-556a1119c294",
+    "endEventUuid": "d0b060f3-1580-457e-9d94-1eef719ba628",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483359020369,
+    "endTime": 1483359020369,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7105a83d-548a-45b3-8ffb-bc43c199367c",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483360943070,
+    "shipMmsi": "244670996",
+    "endEventUuid": "1ccf7de9-af29-46f9-b023-f7db0caa04f0",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483361360373,
+    "endTime": 1483361360373,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ae68c953-7a08-42d2-b6fd-ea15a541c7ae",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483361466209,
+    "endTime": 1483365756158,
+    "shipMmsi": "244670996",
+    "startEventUuid": "58dd0a27-604c-4224-a14b-4038c1439bcd",
+    "endEventUuid": "c5711993-64bf-4a06-847d-c8c45d41ddca",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483365690592,
+    "endTime": 1483369027966,
+    "shipMmsi": "244670996",
+    "startEventUuid": "86af6a78-07a4-4b9a-911a-52ea0cb9e294",
+    "endEventUuid": "16dc87e4-5f64-4b6a-85eb-315d72b0e0c8",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483365980347,
+    "endTime": 1483365980347,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c508d334-c51c-43a1-b633-e9ffdeb57a49",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483366338069,
+    "shipMmsi": "244670996",
+    "endEventUuid": "933ed67d-4faa-4ad4-a086-7df610debbac",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483367725454,
+    "shipMmsi": "244670996",
+    "endEventUuid": "b16b91b7-07fc-4a6f-8923-1c7603297d4e",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483368467803,
+    "endTime": 1483368467803,
+    "shipMmsi": "244670996",
+    "startEventUuid": "195efbde-5d88-4c36-8a60-bb3c60141ac5",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483368490457,
+    "endTime": 1483380905259,
+    "shipMmsi": "218781000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "5bfcb44e-7ba0-446a-910c-d5d1a690f439",
+    "endEventUuid": "4341cdd7-cd6e-4ee5-a875-602df675a508",
+    "title": "water WATERBOOT 15 is alongside INNOVATION",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483372148186,
+    "endTime": 1483380533198,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0b712cc4-e1a1-4b7c-abd2-44bed669dc18",
+    "endEventUuid": "90c0b078-8dcc-4032-bbd3-4604c9d3eb9f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483380532963,
+    "endTime": 1483383392970,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fde241eb-aeb2-4db7-bbba-7009689596b0",
+    "endEventUuid": "f2ad6680-ab98-4cf5-ae1d-0b90ff60e667",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483380887689,
+    "endTime": 1483380887689,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b50cf7cd-90d7-4e1a-b78e-a445e49bad5b",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483382805444,
+    "shipMmsi": "244670996",
+    "endEventUuid": "c077faff-0709-45a7-87ce-d6fec4ff4ec8",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483383107729,
+    "endTime": 1483383107729,
+    "shipMmsi": "244670996",
+    "startEventUuid": "79932204-dfd4-498e-9a64-08baed941ae2",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483383347736,
+    "endTime": 1483383347736,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2b97cf39-a4a5-4f78-9d43-5ffe4d51fba5",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483383393743,
+    "endTime": 1483429023141,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a4f5b1f9-9818-4f14-aefb-bdb0852e9660",
+    "endEventUuid": "7ba8b2a4-61d4-4041-bded-6f4415ed7760",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1483429007694,
+    "endTime": 1483429007694,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d772bd96-d8a6-4ab2-837d-bec390950743",
+    "title": "AIS Signal discovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483429022965,
+    "endTime": 1483430712965,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2702493f-c629-41b8-b246-6bdd534b7589",
+    "endEventUuid": "e1f3acac-6ec6-4e8d-994a-d0b007e6fcf8",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1483430148957,
+    "endTime": 1483430148957,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7656ef5b-7f62-457a-80c3-a4bca6f97bab",
+    "title": "WATERBOOT 15 approaches Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1483430328807,
+    "endTime": 1483430328807,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ca67280f-1107-4a34-b463-049b27cb9ac1",
+    "title": "WATERBOOT 15 passed Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483430500475,
+    "endTime": 1483432385246,
+    "shipMmsi": "314194000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "0f9724b2-7f52-40de-960e-01af3c6aaddb",
+    "endEventUuid": "92cbfce4-b388-4d9f-98e6-6482f68ea2b3",
+    "title": "water WATERBOOT 15 is alongside WILSON GIJON",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483430507697,
+    "endTime": 1483430507697,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f6309d98-2ab2-491e-8513-3aaf495198cf",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483430713134,
+    "endTime": 1483432273160,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b620cbb0-12be-414f-be54-d72e93ec7919",
+    "endEventUuid": "46d9573d-6b76-4070-9d93-7c0a67b14541",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483432402965,
+    "endTime": 1483434666766,
+    "shipMmsi": "244670996",
+    "startEventUuid": "266d5f78-6fce-4d6a-a232-9de162b1371d",
+    "endEventUuid": "c8d858f3-1c0d-429a-9081-b982399c0772",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "endTime": 1483432468138,
+    "shipMmsi": "244670996",
+    "endEventUuid": "a5b9a458-6197-4b05-bb50-e101572d556d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483432547773,
+    "endTime": 1483432547773,
+    "shipMmsi": "244670996",
+    "startEventUuid": "58666fe4-b44d-48cb-9dac-8ce0145fa1f4",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1483432729167,
+    "endTime": 1483432729167,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e38e1480-1a8f-4cdc-8955-b799cb5dfe06",
+    "title": "WATERBOOT 15 approaches Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1483432788892,
+    "endTime": 1483432788892,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8ac1912b-2f3d-4ec6-a50c-5bad2d29a6ce",
+    "title": "WATERBOOT 15 passed Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483434527856,
+    "endTime": 1483434527856,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9dd00e81-a7e5-46e8-a7dd-28a4adba37da",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483434667483,
+    "endTime": 1483435716194,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6f39e963-4fc1-4c34-a64c-4f60b0671487",
+    "endEventUuid": "5b07d3af-d492-41dd-82d5-3244fcc7c7a6",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483435690615,
+    "endTime": 1483435690615,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8cd5e0b8-6064-4775-ba12-208b364c2981",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483435715664,
+    "endTime": 1483442150664,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6d8a68a7-f86f-40a2-ae3e-1bee98ae212a",
+    "endEventUuid": "8e224985-2f49-4bf5-aca8-325431fca93b",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483436558165,
+    "shipMmsi": "244670996",
+    "endEventUuid": "f7dc87ec-d9ad-4200-b5a0-1d5df499f94d",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_EUROMAX",
+    "startTime": 1483437909947,
+    "endTime": 1483438494947,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0a0cd184-5146-4de0-9fd4-12f07acd262a",
+    "endEventUuid": "1174cb25-04b3-420d-8ab9-8c7fed74eb40",
+    "title": "WATERBOOT 15 is inside ect_euromax",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483437988164,
+    "shipMmsi": "244670996",
+    "endEventUuid": "328e93c3-68b4-4d68-832a-3953be619966",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483438210392,
+    "endTime": 1483438210392,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d79f2120-c0de-4593-b017-e050e83d5a15",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483438390458,
+    "endTime": 1483438390458,
+    "shipMmsi": "244670996",
+    "startEventUuid": "aee41ac6-2210-4d82-b702-4fa194035574",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "APM1",
+    "startTime": 1483439274868,
+    "endTime": 1483439469868,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7447d0c5-5ffe-4c3d-8c08-9839d11b766f",
+    "endEventUuid": "65faa7bc-5265-4526-afaa-3c737a93a7b7",
+    "title": "WATERBOOT 15 is inside apm1",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1483439469953,
+    "endTime": 1483440509954,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3d9a5d28-d5c9-44f4-9048-b9726aa84717",
+    "endEventUuid": "1f2a9dab-92c9-4c6f-93a5-dc7a8f051ea4",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483440550427,
+    "endTime": 1483440550427,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2bd29d51-bbf6-46ae-b132-748b38af02f0",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483440610386,
+    "endTime": 1483440610386,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d05f3bb1-f18c-4f1a-a3fd-7881d0d07eda",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483441690441,
+    "endTime": 1483441690441,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8b8dbb0a-b419-4708-9b2e-affb95164ece",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483441807071,
+    "endTime": 1483444406399,
+    "shipMmsi": "636092740",
+    "otherMmsi": "244670996",
+    "startEventUuid": "57080d76-a593-47e5-95ee-8ac48a54d3ba",
+    "endEventUuid": "4ddebd03-bce2-4acb-b47b-05a0ea26e9bb",
+    "title": "water WATERBOOT 15 is alongside E.R. AUCKLAND",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483443841071,
+    "endTime": 1483444425999,
+    "shipMmsi": "244670996",
+    "startEventUuid": "60dbcfa4-6978-4223-8c11-84ae9327a8d4",
+    "endEventUuid": "aeb0de26-a792-43cc-883a-c6726498ec13",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483444360661,
+    "endTime": 1483446245661,
+    "shipMmsi": "244670996",
+    "startEventUuid": "677d1ae2-4a5d-4a06-ad26-4aaaf155856d",
+    "endEventUuid": "7cd0c876-d2a7-4a3c-a75b-ad32f53f7ef5",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483444390392,
+    "endTime": 1483444390392,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7bb20003-377e-4a49-9f28-3759cd653085",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483445398164,
+    "shipMmsi": "244670996",
+    "endEventUuid": "545cd26a-6b4a-40c2-8cfe-7252c823068a",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483445950410,
+    "endTime": 1483445950410,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f22fbff8-53d3-4fcf-8a71-0779db3ec8c8",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483446830662,
+    "endTime": 1483446960661,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7d034fb3-5626-4d85-8937-22e272d4fc92",
+    "endEventUuid": "30d3c86d-2646-447b-84b3-fcb5fa89cb72",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483446961040,
+    "endTime": 1483447676016,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8fdfab38-299c-46ef-80b0-65e402350400",
+    "endEventUuid": "af7d9ad6-e932-4360-9e53-cc83f0db42a5",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483447675664,
+    "endTime": 1483447935664,
+    "shipMmsi": "244670996",
+    "startEventUuid": "13352023-94d0-48d7-b548-204f4b40f3dd",
+    "endEventUuid": "8ef8c9e5-c61e-4a1e-b555-2ba9b39fc473",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483447787052,
+    "endTime": 1483448956775,
+    "shipMmsi": "246141000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "21f381d4-87b5-4db4-8e37-125bff5fda17",
+    "endEventUuid": "da2ed30c-1622-4c3b-84a8-fb8eeeef2bf4",
+    "title": "water WATERBOOT 15 is alongside VANQUISH",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483448845669,
+    "endTime": 1483449105663,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c4d1d11c-3c10-4ae2-8878-c954627aa13e",
+    "endEventUuid": "55a8044a-322c-4c29-8969-8893fc5e7432",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483449106028,
+    "endTime": 1483450406136,
+    "shipMmsi": "244670996",
+    "startEventUuid": "56761f77-ebfc-4af6-8577-5913546a27c7",
+    "endEventUuid": "542732f1-7591-4fe9-b7ae-a8c4fb49b060",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483450405671,
+    "endTime": 1483450795660,
+    "shipMmsi": "244670996",
+    "startEventUuid": "08dbe5f2-5c66-4d5d-a2f3-5453c81720f7",
+    "endEventUuid": "b320d669-fc30-4669-8f62-1db497dd3c71",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483450796006,
+    "endTime": 1483453331145,
+    "shipMmsi": "244670996",
+    "startEventUuid": "92a198e7-dab9-4252-a17f-f2879640a6ef",
+    "endEventUuid": "0711e58e-86c0-4d5c-a3aa-19465e542e5c",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483452095666,
+    "endTime": 1483452485665,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a90fe94c-05d7-494e-abdc-f4df3ceef938",
+    "endEventUuid": "83f23850-3bc3-4fd7-97fe-1cb7acc09557",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483453265665,
+    "endTime": 1483453689009,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f0cde37e-4e3b-475d-a99c-5d23a2ece0d6",
+    "endEventUuid": "0cad6574-dbd8-451a-8b88-8751cf6724f5",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483453330487,
+    "endTime": 1483453330487,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9c6c42fe-3bfa-4921-a442-01f15238af57",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "endTime": 1483453497421,
+    "shipMmsi": "244670996",
+    "endEventUuid": "02e0082c-dede-480b-9f97-85b8dd8abd14",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483453689653,
+    "endTime": 1483687794092,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5e3a59ce-ae46-40ef-8314-887088635299",
+    "endEventUuid": "be3ada9d-bf2f-425e-9f69-638498cefe00",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1483488385898,
+    "endTime": 1483488385898,
+    "shipMmsi": "244670996",
+    "startEventUuid": "42827137-af40-4f4b-914e-44f4c4faee05",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1483523200974,
+    "endTime": 1483523200974,
+    "shipMmsi": "244670996",
+    "startEventUuid": "281cdaba-63fb-4a72-943c-491ee9b06436",
+    "title": "AIS Signal discovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483687748576,
+    "endTime": 1483687748576,
+    "shipMmsi": "244670996",
+    "startEventUuid": "172f070e-bfef-4c4a-a076-8d981d699647",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483687793854,
+    "endTime": 1483689938856,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b72b06a5-f17b-4793-820e-3fb1db9ce812",
+    "endEventUuid": "0547613d-d30a-42ba-b9a4-ed1a73aabd24",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483689595680,
+    "endTime": 1483695804824,
+    "shipMmsi": "256065000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "3df56c47-0130-4aa6-8388-0564a5b2de5f",
+    "endEventUuid": "5afd644c-1316-44cd-b276-7b9781712ac5",
+    "title": "water WATERBOOT 15 is alongside TERRY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483689668561,
+    "endTime": 1483689668561,
+    "shipMmsi": "244670996",
+    "startEventUuid": "46e0b972-60a5-46c5-aa61-d4bba024a61e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483689939026,
+    "endTime": 1483695758366,
+    "shipMmsi": "244670996",
+    "startEventUuid": "46ccb222-18d8-46db-b7f5-0252ef4ec2fc",
+    "endEventUuid": "5c236814-6237-46bd-929a-76fe8d9982e7",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483695757872,
+    "endTime": 1483695887888,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d90c41ee-6e66-465c-a7f7-f37bfc21d5e1",
+    "endEventUuid": "789aade5-8e6d-4a7f-b442-3c791211b45c",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483695870483,
+    "endTime": 1483696584333,
+    "shipMmsi": "246436000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "dd264848-8987-43d0-b17b-d871db74ca52",
+    "endEventUuid": "dd666d02-210d-45f3-a8e4-0b599323c25c",
+    "title": "water WATERBOOT 15 is alongside DUTCH EMERALD",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483696537875,
+    "endTime": 1483699527878,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0873428a-6086-4433-887a-9611b14b59a1",
+    "endEventUuid": "294a9680-62fe-466c-95b2-7f450f979649",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483696547621,
+    "endTime": 1483696547621,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5b09e63a-691e-4920-a7e6-1d0e08fd1e6f",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483698420313,
+    "shipMmsi": "244670996",
+    "endEventUuid": "75220e70-e11c-43cf-8bba-4afb5fe9c02c",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483699184937,
+    "endTime": 1483705294443,
+    "shipMmsi": "235087214",
+    "otherMmsi": "244670996",
+    "startEventUuid": "bf5b9182-5474-4375-9709-7c609a08990b",
+    "endEventUuid": "34781217-55cf-4e92-befd-bb42a1942394",
+    "title": "water WATERBOOT 15 is alongside BODIL KNUTSEN",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483699187634,
+    "endTime": 1483699187634,
+    "shipMmsi": "244670996",
+    "startEventUuid": "03ab738e-ccd6-4b8e-987d-197bb9e50620",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483699314942,
+    "endTime": 1483700744233,
+    "shipMmsi": "244830366",
+    "otherMmsi": "244670996",
+    "startEventUuid": "b453f897-71c3-4cfd-8ca6-04f4fc9f9720",
+    "endEventUuid": "f6d4b588-d3b9-4bc1-aa5b-473781907ca8",
+    "title": "water WATERBOOT 15 is alongside BERINGZEE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483699527955,
+    "endTime": 1483705378097,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1c7870e8-cf5f-4c7c-a272-396faf6228f7",
+    "endEventUuid": "8bf32b98-3cd1-4ad6-9b27-5c44e69c2827",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483700242872,
+    "endTime": 1483700567876,
+    "shipMmsi": "244670996",
+    "startEventUuid": "98f83120-6e75-4db6-9ecc-252b7ecd2424",
+    "endEventUuid": "c2b32be1-ac5c-4f79-939e-6d58b1f56ff3",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483705247717,
+    "endTime": 1483705247717,
+    "shipMmsi": "244670996",
+    "startEventUuid": "747c294c-e011-46e4-9b78-54615e94a1bf",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483705247871,
+    "endTime": 1483706612880,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e24b72dd-766d-442b-8afa-e05b7f7f95e9",
+    "endEventUuid": "e97f4a3b-8fcd-4b63-aea7-a7f984dcd296",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483705960321,
+    "shipMmsi": "244670996",
+    "endEventUuid": "92291d43-5ee4-457b-8467-db823dcb6621",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483706387635,
+    "endTime": 1483706387635,
+    "shipMmsi": "244670996",
+    "startEventUuid": "da4a3d07-93fe-4089-9082-4895ba5a8ff1",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483706678041,
+    "endTime": 1483709017991,
+    "shipMmsi": "244670996",
+    "startEventUuid": "41c6bd9f-7a12-4b31-9498-b7af38091227",
+    "endEventUuid": "f3dfc8df-9e02-476b-99eb-2c9a2f89eb5f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483709017874,
+    "endTime": 1483709732881,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8eb80f88-5fcf-4247-88d0-ddf9b896b738",
+    "endEventUuid": "47122118-8c05-4f60-a98c-537d95525647",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483709087591,
+    "endTime": 1483709087591,
+    "shipMmsi": "244670996",
+    "startEventUuid": "dc24930b-3786-4fb7-a358-514d6f688bc6",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483709197519,
+    "endTime": 1483712379649,
+    "shipMmsi": "636011642",
+    "otherMmsi": "244670996",
+    "startEventUuid": "ea060b63-93f3-48c7-871f-940a1d950d7a",
+    "endEventUuid": "f4f847bf-a562-4835-9c06-d828452c7b74",
+    "title": "water WATERBOOT 15 is alongside LITEYNY PROSPECT",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483709267584,
+    "endTime": 1483709267584,
+    "shipMmsi": "244670996",
+    "startEventUuid": "66391e49-a476-461f-947d-d4ad2a4b638d",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483709733097,
+    "endTime": 1483712398036,
+    "shipMmsi": "244670996",
+    "startEventUuid": "476e2dab-677e-4926-9dbc-611e5a4b772f",
+    "endEventUuid": "453f8b1c-4fef-4f97-866f-98b2800e074f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483712267874,
+    "endTime": 1483712787871,
+    "shipMmsi": "244670996",
+    "startEventUuid": "85b62e50-518f-4d8f-9cf1-844cbc427e0a",
+    "endEventUuid": "581328f0-6af6-4d22-9e92-907f67569ba3",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483712387638,
+    "endTime": 1483712387638,
+    "shipMmsi": "244670996",
+    "startEventUuid": "19643c6d-f249-4af4-b43d-de8a55f5d9ae",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483712627631,
+    "endTime": 1483712627631,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7e489ed7-b0b7-45dc-a4ff-3eff60901110",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483712639934,
+    "endTime": 1483714599713,
+    "shipMmsi": "244670063",
+    "otherMmsi": "244670996",
+    "startEventUuid": "b0926898-d130-4aaa-b62d-0f13b2406c78",
+    "endEventUuid": "703e33f7-61d2-4cce-8dd7-3248a851d5cd",
+    "title": "water WATERBOOT 15 is alongside ATLANTIC PRIDE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483713939951,
+    "endTime": 1483714599711,
+    "shipMmsi": "205335490",
+    "otherMmsi": "244670996",
+    "startEventUuid": "86694ba4-79bb-4403-935e-1cba4ed34e24",
+    "endEventUuid": "b63a1dc5-66c5-470e-ad6a-9fb27ee8c66c",
+    "title": "water WATERBOOT 15 is alongside TANZANITE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483714152963,
+    "endTime": 1483714478035,
+    "shipMmsi": "244670996",
+    "startEventUuid": "40a2238a-615f-4d91-b464-338ed957db3c",
+    "endEventUuid": "466784a9-a0c5-4aaf-a0d0-c4c57a672de9",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483714412879,
+    "endTime": 1483716297871,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6b559860-b895-4277-b073-0e291603b3ce",
+    "endEventUuid": "b06f5695-079a-4c0c-89dc-889732fecd01",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483714487591,
+    "endTime": 1483714487591,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1ed0b88b-e362-47a6-b1da-37780f68e367",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483715190313,
+    "shipMmsi": "244670996",
+    "endEventUuid": "2b087ab5-274c-4e97-a07b-13322a834751",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483716287611,
+    "endTime": 1483716287611,
+    "shipMmsi": "244670996",
+    "startEventUuid": "04e26e01-8852-4604-aa09-072dbcf40586",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483716817881,
+    "endTime": 1483717727879,
+    "shipMmsi": "244670996",
+    "startEventUuid": "75e9d8f4-d3a2-45a2-9937-a479a8fb82f3",
+    "endEventUuid": "1e516bd5-7ad2-47d9-b36b-29ceee089793",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483717307585,
+    "endTime": 1483717307585,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5103f38d-519e-44cf-8bdf-7bdbceee1dc9",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483717667636,
+    "endTime": 1483717667636,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bf24a753-dbfb-4a51-9041-b400e3127324",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483717728145,
+    "endTime": 1483721303104,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9dca6300-9d1b-4aa7-957b-6040f871cc0e",
+    "endEventUuid": "2d72924c-0d87-4f36-b76a-9263e1996afd",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483720912881,
+    "endTime": 1483723187871,
+    "shipMmsi": "244670996",
+    "startEventUuid": "19a48726-e433-45ad-8937-e5f65cafbbe9",
+    "endEventUuid": "7694dc9c-8624-4996-b07a-8dc468132998",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483721267631,
+    "endTime": 1483721267631,
+    "shipMmsi": "244670996",
+    "startEventUuid": "49c8952c-f7e1-4184-a2e9-f13d9835bef9",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483722535320,
+    "shipMmsi": "244670996",
+    "endEventUuid": "4bb8d1f2-4b51-47b9-ab32-60919f28496c",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483723007632,
+    "endTime": 1483723007632,
+    "shipMmsi": "244670996",
+    "startEventUuid": "63ec6362-8c58-4351-9d4a-eb79829df205",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483723774182,
+    "endTime": 1483777008180,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a8164262-6a88-425e-9e02-0e8f09714825",
+    "endEventUuid": "e10bcc55-f885-47b7-bdc7-f9e3e9ec1a16",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483776942869,
+    "endTime": 1483777592881,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d113df43-42cc-4bfe-81e5-5eeb6413f91f",
+    "endEventUuid": "c76eb9e7-3164-401d-90db-e6cd96d17586",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483777307583,
+    "endTime": 1483777307583,
+    "shipMmsi": "244670996",
+    "startEventUuid": "532610ec-9090-4aac-96ad-12f219a39a55",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483777487582,
+    "endTime": 1483777487582,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4b39e11f-566c-4b19-96bf-cbbe22d4e94f",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483777594376,
+    "endTime": 1483777788093,
+    "shipMmsi": "244670996",
+    "startEventUuid": "30988980-fbd8-44b9-93b4-2473eef8b19e",
+    "endEventUuid": "7612e334-c3c2-49e5-a878-a1de6be1ab94",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483777787721,
+    "endTime": 1483777787721,
+    "shipMmsi": "244670996",
+    "startEventUuid": "eddf907a-9edd-4e09-b91e-0fc6a0f733c9",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483777787871,
+    "endTime": 1483779932873,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b079a83c-551b-496b-a531-624ca554ee6a",
+    "endEventUuid": "5c606e38-95e0-47e4-83a0-d9c98ab136d7",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483778370320,
+    "shipMmsi": "244670996",
+    "endEventUuid": "b481023f-7369-4c2d-a0c3-1f20da9642be",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1483779397818,
+    "endTime": 1483782322817,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8c9f9703-8b8e-47dc-8bde-a1cf29b9db51",
+    "endEventUuid": "efcb1172-6332-4bfe-a7c3-ba9ddce8f202",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483779887630,
+    "endTime": 1483779887630,
+    "shipMmsi": "244670996",
+    "startEventUuid": "283fc573-1596-4b6d-8e59-c175a6f71087",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483779914938,
+    "endTime": 1483781799697,
+    "shipMmsi": "209850000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "a497d2e4-353b-462f-a7da-f601b7c4623c",
+    "endEventUuid": "f15a077b-71ad-4d1d-956e-473cc63bd370",
+    "title": "water WATERBOOT 15 is alongside ANDROMEDA J",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483779933241,
+    "endTime": 1483781818251,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9191cb9e-658b-478f-9055-e840d6ce05f1",
+    "endEventUuid": "28c27ea2-f69b-4ce9-baff-363f63c07448",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483781747627,
+    "endTime": 1483781747627,
+    "shipMmsi": "244670996",
+    "startEventUuid": "db813740-344e-4f9c-94c8-5026dff25100",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483781752871,
+    "endTime": 1483783247870,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a7abfd5d-9f43-4aa8-9372-dc6dfd19b190",
+    "endEventUuid": "c78af882-8693-4cca-b617-7d0fe39a0c3f",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_EUROMAX",
+    "startTime": 1483783037786,
+    "endTime": 1483784207785,
+    "shipMmsi": "244670996",
+    "startEventUuid": "64aae1ac-332d-4019-9dfa-dff918f42980",
+    "endEventUuid": "2dd27f29-ff7b-4a68-9090-81ecd6e953ea",
+    "title": "WATERBOOT 15 is inside ect_euromax",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483783050323,
+    "shipMmsi": "244670996",
+    "endEventUuid": "6e4ca297-eb36-4b79-9c72-20dd862cb237",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483783187586,
+    "endTime": 1483783187586,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9020f9b7-f5cf-4b84-83ea-a944d300229c",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483783230029,
+    "endTime": 1483784009753,
+    "shipMmsi": "305883000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "97087025-ca25-44bb-acf5-e00e579fd0ff",
+    "endEventUuid": "a5be8b6f-7efb-408f-bf19-e359c4f559a3",
+    "title": "water WATERBOOT 15 is alongside CONMAR BAY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483783248225,
+    "endTime": 1483784158094,
+    "shipMmsi": "244670996",
+    "startEventUuid": "22fa4795-2abd-4d40-80ad-efcf8adbe8a6",
+    "endEventUuid": "1a8b190d-fcc1-4668-a24d-a46ae9581dbf",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483783962871,
+    "endTime": 1483785392897,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b52ef19e-30a8-4556-b743-6778c9333f91",
+    "endEventUuid": "91cc9ac5-568e-483a-bbdf-c138a23bc5b4",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483783967640,
+    "endTime": 1483783967640,
+    "shipMmsi": "244670996",
+    "startEventUuid": "166c0c87-b167-4ba7-a47f-d6b29c0889b2",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "RWG",
+    "startTime": 1483784857740,
+    "endTime": 1483790122738,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8608ab74-443e-4761-b093-452ca4b745c7",
+    "endEventUuid": "29e07697-1b70-43d4-88d3-b835b34013c3",
+    "title": "WATERBOOT 15 is inside rwg",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483785167628,
+    "endTime": 1483785167628,
+    "shipMmsi": "244670996",
+    "startEventUuid": "11fc37e1-f828-47f3-be2c-769144cdb123",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483785244932,
+    "endTime": 1483789924603,
+    "shipMmsi": "209840000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "7f04283f-af08-49fe-8f7a-263ee5adbd16",
+    "endEventUuid": "9ebe62b4-0b63-46df-8b2a-d4c0bc0847e5",
+    "title": "water WATERBOOT 15 is alongside WMS GRONINGEN",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483785393342,
+    "endTime": 1483789943097,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3f5269a5-5fda-421d-b291-99a890aa59b2",
+    "endEventUuid": "dde03619-4d41-4110-971b-cef63fae8a7a",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483789877873,
+    "endTime": 1483792932869,
+    "shipMmsi": "244670996",
+    "startEventUuid": "26b5cb9b-9eb6-46e1-87d0-315016358375",
+    "endEventUuid": "ccc5d34c-5bc8-4d62-867e-34a76372193f",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483789907619,
+    "endTime": 1483789907619,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fff8188e-6e5c-42ad-813c-ae17ad6d5df0",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483792215321,
+    "shipMmsi": "244670996",
+    "endEventUuid": "f14e1c17-301f-4ce9-b050-dd6f8ef2e91f",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483792547595,
+    "endTime": 1483792547595,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cd0dce73-c801-4b8b-9892-fad9f984ac3c",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483792933102,
+    "endTime": 1483946853123,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b582e49e-46f7-492b-b378-0b569f32eef4",
+    "endEventUuid": "06d17344-5989-4978-8244-153be1583d9f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1483817267618,
+    "endTime": 1483817267618,
+    "shipMmsi": "244670996",
+    "startEventUuid": "dc886019-1d26-4399-9717-6a7750a1d95f",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1483946867588,
+    "endTime": 1483946867588,
+    "shipMmsi": "244670996",
+    "startEventUuid": "38c109cb-5f9f-4184-b1bc-fd6dd9d5aeb2",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483947107595,
+    "endTime": 1483947107595,
+    "shipMmsi": "244670996",
+    "startEventUuid": "13c7903e-b9bc-4cfd-945d-ea6f9defee1e",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483947939940,
+    "endTime": 1483953854622,
+    "shipMmsi": "256714000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "888546db-3df5-4ed3-8ed4-34eb1716d851",
+    "endEventUuid": "c0f9bdc7-7739-4691-b6bc-7438d2caa0e7",
+    "title": "water WATERBOOT 15 is alongside BLACK STAR",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483947947651,
+    "endTime": 1483947947651,
+    "shipMmsi": "244670996",
+    "startEventUuid": "154b6fa2-474a-40ad-8db6-5325493d2bc6",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "endTime": 1483948282874,
+    "shipMmsi": "244670996",
+    "endEventUuid": "0fd594e3-6544-450b-8f2d-a8f82620b746",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483948283136,
+    "endTime": 1483953873073,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a2190d09-9906-408f-930d-b13b0f5708ac",
+    "endEventUuid": "dedafadb-0307-4e6d-8106-45096edf15e7",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483948932873,
+    "endTime": 1483949322873,
+    "shipMmsi": "244670996",
+    "startEventUuid": "85d608fe-c006-4b47-b1ed-56bdccaa0206",
+    "endEventUuid": "c061812f-8bfb-44e5-b0e5-65381ffb07ba",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1483953587639,
+    "endTime": 1483953587639,
+    "shipMmsi": "244670996",
+    "startEventUuid": "09374a44-769d-4f4e-8627-e96917d5bd30",
+    "title": "AIS Signal discovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483953612875,
+    "endTime": 1483954717872,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6f6a0157-dbce-41f0-bece-78ee8a76ada9",
+    "endEventUuid": "493392fb-a3a2-487e-97a8-28f80090d366",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483953827605,
+    "endTime": 1483953827605,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6e9b89ea-6a9a-489b-a367-6202e76fac0c",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483954607646,
+    "endTime": 1483954607646,
+    "shipMmsi": "244670996",
+    "startEventUuid": "13339a52-e876-40fc-bf45-c653b50c098e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483954783075,
+    "endTime": 1483958293032,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cb3fc2c1-c41c-4e38-9ba3-d29c69822d92",
+    "endEventUuid": "3ff48642-94b6-40ce-b2c2-57879f654c9c",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483958292874,
+    "endTime": 1483959462872,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0c114789-408b-4808-a40c-9a84adc07bb0",
+    "endEventUuid": "e96206eb-a7af-480a-8bdc-7506629a7e16",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483958327652,
+    "endTime": 1483958327652,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a25e2c4c-8b49-4806-ac58-3f7c10ee442a",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483959347597,
+    "endTime": 1483959347597,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a329eec7-1bfa-4008-9f78-f663a65b4fb5",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483959463074,
+    "endTime": 1483964923463,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f5b9eb74-a76e-4c94-bad5-391d26dbf45d",
+    "endEventUuid": "7ef1b7bb-7375-40a7-b636-c7b4abaa01b8",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1483959510021,
+    "endTime": 1483964969916,
+    "shipMmsi": "306029000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "e4074b3f-697c-436a-be7e-0ed01669c7f1",
+    "endEventUuid": "efa5aba8-25f5-4f87-a879-ec1f4b8dc20f",
+    "title": "water WATERBOOT 15 is alongside TERN",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483960242875,
+    "endTime": 1483960372874,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7153f9f9-4fe3-4335-a767-4ab81bcc9c5d",
+    "endEventUuid": "c1c5cc21-d674-4004-90ee-f9ce3c71b3d1",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483964857873,
+    "endTime": 1483968237872,
+    "shipMmsi": "244670996",
+    "startEventUuid": "87a930e5-b85f-4d61-9118-ad4b0e608abd",
+    "endEventUuid": "2b3280c9-dac3-42ca-a215-2021b9f7de02",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483964927619,
+    "endTime": 1483964927619,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5b3a9469-b883-4988-896d-b9e78bd1d389",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483966285321,
+    "shipMmsi": "244670996",
+    "endEventUuid": "006bda3d-57f4-4196-8a32-0b3fd69b5086",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1483967182817,
+    "endTime": 1483967247818,
+    "shipMmsi": "244670996",
+    "startEventUuid": "872d139c-1f02-4cd2-b43d-279ab8310f23",
+    "endEventUuid": "188dbe3a-4c1f-4623-8dec-0d44d144a9d3",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483968105320,
+    "shipMmsi": "244670996",
+    "endEventUuid": "a8339996-d2eb-4d17-b9bb-972123809622",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483968107668,
+    "endTime": 1483968107668,
+    "shipMmsi": "244670996",
+    "startEventUuid": "75953558-2804-4d2d-9e4d-9ecb1104a943",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483969667731,
+    "endTime": 1483969667731,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3d69b901-319e-46e8-a178-a9970aaa6235",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483969667900,
+    "endTime": 1483971357873,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6f202252-7db6-4f4d-a0f1-8f2293849491",
+    "endEventUuid": "25b8a283-d4cc-45ab-aafa-6c1327bfcc2d",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483971287654,
+    "endTime": 1483971287654,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d0ef1d7c-a3db-472b-a8bb-9118ba73c9f7",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483971358006,
+    "endTime": 1483972462992,
+    "shipMmsi": "244670996",
+    "startEventUuid": "761a57ae-d236-4772-963c-42790576a014",
+    "endEventUuid": "79ed62a7-c387-4cc2-935b-3cf3a17ee04f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1483972397874,
+    "endTime": 1483974217876,
+    "shipMmsi": "244670996",
+    "startEventUuid": "22ae1e1b-6a72-4f6e-9946-ed40271efda9",
+    "endEventUuid": "4176e78d-701e-48bf-85da-ef44a7cada90",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483972427648,
+    "endTime": 1483972427648,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0ebe5b05-9f8d-4986-b617-ed8d3a12c7e5",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1483973630321,
+    "shipMmsi": "244670996",
+    "endEventUuid": "4f4287d3-2866-4d27-bad7-af52cfccd8ff",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1483974107633,
+    "endTime": 1483974107633,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fcba4080-c5bd-43de-b5b7-78eb00347825",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1483975453010,
+    "endTime": 1484032653137,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d8e0a4e9-d4b0-42f3-815f-64a8b766ca75",
+    "endEventUuid": "342c4e67-f30a-43de-9b53-6bdb34abc793",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484032652881,
+    "endTime": 1484035122873,
+    "shipMmsi": "244670996",
+    "startEventUuid": "436323f7-f84b-49fb-93df-1bed58943709",
+    "endEventUuid": "744017af-260b-4532-b80d-81c57590e15a",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484032967599,
+    "endTime": 1484032967599,
+    "shipMmsi": "244670996",
+    "startEventUuid": "25f25a82-6dbe-4e9e-bd1c-25f74a3d22e6",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "VHF",
+    "endTime": 1484033430315,
+    "shipMmsi": "244670996",
+    "endEventUuid": "180a014b-6d4f-4793-b260-2bb49395b575",
+    "title": "WATERBOOT 15 is inside vhf",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484035067618,
+    "endTime": 1484035067618,
+    "shipMmsi": "244670996",
+    "startEventUuid": "392ec605-6f25-4a04-90a9-17d892b3d624",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484035123121,
+    "endTime": 1484041606312,
+    "shipMmsi": "244670996",
+    "startEventUuid": "effb1839-507b-4475-8e10-ed5730836427",
+    "endEventUuid": "9c3b1a75-cedd-4d8b-9ae5-38817853da0d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484035170042,
+    "endTime": 1484041534539,
+    "shipMmsi": "246190000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "9316db9b-ae57-4a1b-b13b-41349099c502",
+    "endEventUuid": "d3722787-aa62-42bb-9ef9-e40ddbfc2b72",
+    "title": "water WATERBOOT 15 is alongside PITZTAL",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484041516272,
+    "endTime": 1484041516272,
+    "shipMmsi": "244670996",
+    "startEventUuid": "26404434-44a5-485e-9c0d-b2ab078d735d",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484041541768,
+    "endTime": 1484044206748,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0a2379b3-970d-4cdd-8a53-3b52dfaa2b23",
+    "endEventUuid": "078ebdb3-8468-46ab-b196-f8327faebb4f",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484044156271,
+    "endTime": 1484044156271,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d11624bd-39c8-4e0d-b8e1-64875bb04387",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484044206276,
+    "endTime": 1484046351295,
+    "shipMmsi": "244670996",
+    "startEventUuid": "abdb56ce-50a0-4fa5-9f8d-41a984d5c65a",
+    "endEventUuid": "75f9f8a0-1c60-4a4a-bca7-5ec44ec8cfe2",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484045181750,
+    "endTime": 1484045246749,
+    "shipMmsi": "244670996",
+    "startEventUuid": "619181b0-5d99-44f8-a0e1-2b88033f5660",
+    "endEventUuid": "99f6c37e-1a0f-475d-ad29-b677fcb49396",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484046286747,
+    "endTime": 1484046741761,
+    "shipMmsi": "244670996",
+    "startEventUuid": "61b9cf3a-8e3e-4d6f-b176-af47e8c12981",
+    "endEventUuid": "acc5ea26-a0b0-47a5-b5e1-218d2a691faa",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484046316271,
+    "endTime": 1484046316271,
+    "shipMmsi": "244670996",
+    "startEventUuid": "98d49677-5f0e-4b6b-810e-92d0e0262844",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "RWG",
+    "startTime": 1484046542563,
+    "endTime": 1484048167563,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4c6f6a13-3859-48be-9419-bbca9dfc8a45",
+    "endEventUuid": "0c98283e-48a2-44e6-83d3-50a96ad32b50",
+    "title": "WATERBOOT 15 is inside rwg",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484046556272,
+    "endTime": 1484046556272,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cc02833f-cb8a-4ab3-8709-3e2703ac60b6",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484046741333,
+    "endTime": 1484048106991,
+    "shipMmsi": "244670996",
+    "startEventUuid": "df7e3b6e-8ffd-4442-9ab5-ed38df2c9374",
+    "endEventUuid": "f2739cd7-d08b-441c-886e-081c27821c13",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484048056268,
+    "endTime": 1484048056268,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e5d518be-197e-4237-b813-79df922d63ef",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484048106752,
+    "endTime": 1484048691766,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8923123f-156b-4f1f-8fc6-75925d6f34d6",
+    "endEventUuid": "3d53d7cf-3500-4c15-97f7-3d87bcd8c373",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484048294813,
+    "endTime": 1484058109650,
+    "shipMmsi": "218781000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "a210b778-a352-4501-b790-e724c6025f26",
+    "endEventUuid": "cc9e3800-db41-4ea3-a275-467e61a8271e",
+    "title": "water WATERBOOT 15 is alongside INNOVATION",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484048296268,
+    "endTime": 1484048296268,
+    "shipMmsi": "244670996",
+    "startEventUuid": "774639b9-4d86-4c62-9332-981e5fc82ddc",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484048951754,
+    "endTime": 1484049146748,
+    "shipMmsi": "244670996",
+    "startEventUuid": "894046d6-595e-474c-a8f6-57df0777eb62",
+    "endEventUuid": "bdcd7ba4-2527-4b8d-8a93-af9ec9640567",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484049146332,
+    "endTime": 1484058116300,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3570ff13-4316-424f-b34a-e05e9fc1d459",
+    "endEventUuid": "93d82407-6841-412d-97f8-90e9abbca751",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484058076268,
+    "endTime": 1484058076268,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fcd878af-da3c-4e30-aa95-ba7d8ebdda5d",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484058116749,
+    "endTime": 1484060681577,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1cb4f021-448f-414f-8cff-d94ae70fb913",
+    "endEventUuid": "5ec02fc8-718d-46b6-b469-e307ee9a247d",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484060416280,
+    "endTime": 1484060416280,
+    "shipMmsi": "244670996",
+    "startEventUuid": "11a4f75f-5b8f-4434-97cb-8bc95830698a",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484062436114,
+    "endTime": 1484119600690,
+    "shipMmsi": "244670996",
+    "startEventUuid": "af364235-e77d-4ac1-b49d-85bffc5a8616",
+    "endEventUuid": "719264ba-12e9-46f1-a5b6-70e71bdf8788",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1484101685510,
+    "endTime": 1484101685510,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bff7e81d-aaa3-4967-9c7a-82bc47643b21",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1484119565516,
+    "endTime": 1484119565516,
+    "shipMmsi": "244670996",
+    "startEventUuid": "456af801-4810-4ce9-b587-0dddf48287d2",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484119600994,
+    "endTime": 1484120510986,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b78df6e7-3f89-4c84-b25c-dbb8209172c3",
+    "endEventUuid": "8d0192f7-b9f4-4f05-9f08-29522f94a7e5",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484120575642,
+    "endTime": 1484122590660,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b9847de4-817c-452d-a42f-a580add3cb32",
+    "endEventUuid": "6e4b129d-d940-4e6b-a5dc-978db335dbb6",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484122590987,
+    "endTime": 1484123565984,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d8a35fbe-3d0b-49f0-819d-030c49859664",
+    "endEventUuid": "016f9e56-3a75-4636-af59-c78006aad0c7",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484124020996,
+    "endTime": 1484124540994,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4c265019-fa4b-4ae6-87d9-7e505a32a397",
+    "endEventUuid": "619be333-92b1-49b5-85c7-e3eccfa96c05",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484124605684,
+    "endTime": 1484125320642,
+    "shipMmsi": "244670996",
+    "startEventUuid": "911255c9-7d31-467f-9d33-32de67bac35c",
+    "endEventUuid": "98f7227c-501c-4167-a744-f7d46df2043e",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484125255990,
+    "endTime": 1484126101012,
+    "shipMmsi": "244670996",
+    "startEventUuid": "953f5d45-7b58-47b7-a905-72e415150d89",
+    "endEventUuid": "bcc5efb1-1388-47e0-bf12-d1d661836e1c",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484125565494,
+    "endTime": 1484125565494,
+    "shipMmsi": "244670996",
+    "startEventUuid": "08fe279f-81f1-423c-a898-059438fb9678",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484125865487,
+    "endTime": 1484125865487,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e8a11c1c-4bb3-4644-bd39-ce3d10dcebae",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484126230601,
+    "endTime": 1484551912381,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7ba0d0aa-7355-464f-a940-761afa289e2d",
+    "endEventUuid": "c506f84c-7538-45f9-aa06-6cafd93aaf6b",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484551912507,
+    "endTime": 1484554122505,
+    "shipMmsi": "244670996",
+    "startEventUuid": "57193098-7cb4-4d28-8a2c-0fbbec7f3785",
+    "endEventUuid": "4cecd2eb-bd16-4c65-8bb9-dc314d815687",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484551997175,
+    "endTime": 1484551997175,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b5cd627a-8215-48a2-8a6b-3df77ecc86c4",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484552657173,
+    "endTime": 1484552657173,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6f22232a-8d53-428c-aa64-cd5e9fa68b4a",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484553855925,
+    "endTime": 1484558776844,
+    "shipMmsi": "247373700",
+    "otherMmsi": "244670996",
+    "startEventUuid": "86e5afb9-c8b2-46ee-8062-8e9feadfbb8b",
+    "endEventUuid": "d1807806-7f91-4172-97bc-b9872ddec295",
+    "title": "water WATERBOOT 15 is alongside MARY A",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484553857190,
+    "endTime": 1484553857190,
+    "shipMmsi": "244670996",
+    "startEventUuid": "39509f2b-17b8-4964-a4f3-4a188a9c95b3",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484554447505,
+    "endTime": 1484554642503,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b905e797-42d2-4c09-8ba6-fa991b9b78ee",
+    "endEventUuid": "01dc3171-dffb-4493-acb3-060b3a090d21",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484554642443,
+    "endTime": 1484558731866,
+    "shipMmsi": "244670996",
+    "startEventUuid": "26c80041-801c-4a86-a2df-fdf256494132",
+    "endEventUuid": "a44ecad2-7d3e-40d6-8327-ce728da8f7c7",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1484558417157,
+    "endTime": 1484558417157,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3a8e565f-47df-40a6-9fd2-5066ecb19fa4",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1484558537129,
+    "endTime": 1484558537129,
+    "shipMmsi": "244670996",
+    "startEventUuid": "04abef66-5620-4f24-a737-4f664b0d6f33",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484559378721,
+    "endTime": 1484559378721,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1f3e19fb-5681-4c9e-83c8-e30c92119956",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "endTime": 1484559434156,
+    "shipMmsi": "244670996",
+    "endEventUuid": "a74e2efc-9216-42b0-bf97-172612a81417",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484559498638,
+    "endTime": 1484560993650,
+    "shipMmsi": "244670996",
+    "startEventUuid": "78f43e8d-9331-4927-b1f9-b806c9de3cfd",
+    "endEventUuid": "3f286df0-ac77-4067-9bbf-b2c22c453de6",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484560929141,
+    "endTime": 1484561969144,
+    "shipMmsi": "244670996",
+    "startEventUuid": "19799926-4dbd-4974-9c3e-0c7f8246ca91",
+    "endEventUuid": "a76da272-d1e9-4fda-9eb3-6624f4db50d8",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484560938724,
+    "endTime": 1484560938724,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2bdc1504-9037-47fe-84e1-1f5047c9b1d7",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484561718728,
+    "endTime": 1484561718728,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9bd19128-a372-4594-9536-d38d6df2068f",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484561958730,
+    "endTime": 1484561958730,
+    "shipMmsi": "244670996",
+    "startEventUuid": "267914d6-74e3-4fa6-bef0-7a8984c4888b",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484561968502,
+    "endTime": 1484564763654,
+    "shipMmsi": "244670996",
+    "startEventUuid": "55ada353-bff6-4e49-a3a7-9959fd4f8e6b",
+    "endEventUuid": "9ea30ed6-81a8-415a-9baa-76ae7d6cf885",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484564699152,
+    "endTime": 1484566649142,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2c5240e9-400c-432f-a9e5-e543ad25379f",
+    "endEventUuid": "84d83f3b-5bbe-4d61-a743-9c1b272edfe0",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484564718724,
+    "endTime": 1484564718724,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1703474f-5ef3-45f3-a575-ed59026d25f0",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484566218731,
+    "endTime": 1484566218731,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bbbdaab8-b657-4198-aab6-7cfa3e57d99d",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1484566254813,
+    "endTime": 1484574314815,
+    "shipMmsi": "244670996",
+    "startEventUuid": "09d7a02e-44ee-42e9-877b-cf64c2f1eb64",
+    "endEventUuid": "096770db-8328-42a2-8e0c-0419ed84f2d2",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484566520343,
+    "endTime": 1484571906817,
+    "shipMmsi": "248811000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "b4993395-c704-4281-bfea-0a0791fd1a75",
+    "endEventUuid": "aab98d8e-600e-4bc0-b83e-0dac8908054c",
+    "title": "water WATERBOOT 15 is alongside MSC JOY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484566648577,
+    "endTime": 1484572173612,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bcec0eee-9180-46d4-909d-baafd37bcc82",
+    "endEventUuid": "e155c801-6068-4c0b-9369-8b8edfffae2b",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484571784143,
+    "endTime": 1484571914150,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e10ed455-4ca2-48b9-b2b7-06baf94005af",
+    "endEventUuid": "aa73c3a6-cef1-4005-ba1c-fb0c8351ab08",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484572158733,
+    "endTime": 1484572158733,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e6eca2e5-201f-43e1-b71b-094cd1985864",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484572174143,
+    "endTime": 1484572434147,
+    "shipMmsi": "244670996",
+    "startEventUuid": "08208c8d-0247-4db3-b446-02940488fc5f",
+    "endEventUuid": "784135e2-ce71-4372-b525-e404d0f7daba",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484572338731,
+    "endTime": 1484572338731,
+    "shipMmsi": "244670996",
+    "startEventUuid": "799dfe71-adec-4f18-aee8-cd99fb8a9d73",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484572434582,
+    "endTime": 1484574188583,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4a26e0eb-584b-4b5a-8191-e385f569b6b1",
+    "endEventUuid": "0c4708db-5d73-4f2a-978c-951014926aab",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484573214141,
+    "endTime": 1484573474154,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3d17d916-80bb-49c0-bf02-415a02c63a36",
+    "endEventUuid": "69ab5448-5c18-4a7d-88a1-b666679126a9",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484573272097,
+    "endTime": 1484574311953,
+    "shipMmsi": "244810693",
+    "otherMmsi": "244670996",
+    "startEventUuid": "7c622df2-c505-41ba-8f1c-8ef269c76ae8",
+    "endEventUuid": "be001000-0502-4c6f-917f-bd40eeb05a36",
+    "title": "water WATERBOOT 15 is alongside MARTINIQUE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484573467093,
+    "endTime": 1484574246509,
+    "shipMmsi": "244850968",
+    "otherMmsi": "244670996",
+    "startEventUuid": "125d6403-6489-4119-b502-28fbb7581e0e",
+    "endEventUuid": "868ab24e-f285-41f1-98aa-2ebb392057f7",
+    "title": "water WATERBOOT 15 is alongside SPIRIT",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484574138728,
+    "endTime": 1484574138728,
+    "shipMmsi": "244670996",
+    "startEventUuid": "dc82eb1b-dcfd-4484-9eee-710b2bf13ac3",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484574189142,
+    "endTime": 1484574644139,
+    "shipMmsi": "244670996",
+    "startEventUuid": "22ef42de-24a3-4106-b52e-e59a91757226",
+    "endEventUuid": "5f2c8506-6c33-4799-89ac-65eb7c21b757",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484574618732,
+    "endTime": 1484574618732,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2c2bd896-dbf1-4e64-b852-2e6ff22222e4",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484574643516,
+    "endTime": 1484575618564,
+    "shipMmsi": "244670996",
+    "startEventUuid": "085ee618-4987-4774-99e2-a9571ff7fbf2",
+    "endEventUuid": "a91a3c99-9e17-450c-b2be-8517a8a4e1d5",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484575518747,
+    "endTime": 1484575518747,
+    "shipMmsi": "244670996",
+    "startEventUuid": "761e679c-2da8-4b89-90ca-785209c7f890",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484575554141,
+    "endTime": 1484577049147,
+    "shipMmsi": "244670996",
+    "startEventUuid": "30b35505-35fd-479c-b507-1ded16a4664e",
+    "endEventUuid": "6bfead24-8233-4c6f-aafc-0b596dabc326",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484576958728,
+    "endTime": 1484576958728,
+    "shipMmsi": "244670996",
+    "startEventUuid": "aaa562fb-7939-4670-b180-f987bf89bc6b",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484578153582,
+    "endTime": 1484637693264,
+    "shipMmsi": "244670996",
+    "startEventUuid": "20e8fb65-01ca-4760-a8a5-55085e1f0087",
+    "endEventUuid": "b0bdb022-347c-48e9-a449-f767dacc1ad1",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484637708150,
+    "endTime": 1484637708150,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1a6ed3c1-73e4-4280-9949-5797b80b8b40",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484637758553,
+    "endTime": 1484639968548,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1669556d-2c4b-45a4-a936-c1ad9a83c4fc",
+    "endEventUuid": "37367ad4-3e7e-4e9c-ae16-3a2d1270ce60",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484639028148,
+    "endTime": 1484639028148,
+    "shipMmsi": "244670996",
+    "startEventUuid": "02c84449-9a9a-4e2e-ad56-8aa195af9a75",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484639928139,
+    "endTime": 1484639928139,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d72d326c-5aa9-49c2-9767-c6e9b9684232",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484639961783,
+    "endTime": 1484643536135,
+    "shipMmsi": "229713000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "3a15a0e3-cae2-42f3-b0cf-daa885f12f2d",
+    "endEventUuid": "5bc5d508-f7cd-40cc-a483-0f634f3f614a",
+    "title": "water WATERBOOT 15 is alongside SCALI DEL TEATRO",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484639968214,
+    "endTime": 1484643478196,
+    "shipMmsi": "244670996",
+    "startEventUuid": "62746eb9-db1c-4d18-9309-762cd3a503fb",
+    "endEventUuid": "4d6d1a2a-c6de-44a8-910c-ef7520d2f8ac",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484643468152,
+    "endTime": 1484643468152,
+    "shipMmsi": "244670996",
+    "startEventUuid": "32852f08-e4b2-4e8a-8b41-fb17680b5a50",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484643478548,
+    "endTime": 1484644258551,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5d8d92c6-6950-4269-9f65-667eafcdda02",
+    "endEventUuid": "d33e20ce-bf9a-43f6-ac3f-192ce17e980c",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484643796783,
+    "endTime": 1484649711600,
+    "shipMmsi": "636017159",
+    "otherMmsi": "244670996",
+    "startEventUuid": "60a1f9ff-15cc-457f-8b1c-5026011a4ac7",
+    "endEventUuid": "8b96b2ab-a7f9-4c0f-8b2f-43e4010d6963",
+    "title": "water WATERBOOT 15 is alongside LADY DAHLIA",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484643888153,
+    "endTime": 1484643888153,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9742f7ba-0c6c-451b-a79f-313040d3b7ef",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484644258241,
+    "endTime": 1484649718191,
+    "shipMmsi": "244670996",
+    "startEventUuid": "90793383-5f4b-41a3-ba35-c7bc9bd5765e",
+    "endEventUuid": "c20a63c7-c121-4134-8d2a-1aac8e326c0a",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484649708160,
+    "endTime": 1484649708160,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8892cffd-e29e-4214-b445-b43472d40015",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484649718550,
+    "endTime": 1484651343565,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7fec1cbb-a57e-4671-974d-f74987cd4977",
+    "endEventUuid": "5ce7b1ef-e5af-44e4-8ae9-c99a62d27624",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484651148182,
+    "endTime": 1484651148182,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b3bd7191-d536-4511-bed5-1ada24473c5e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484651343194,
+    "endTime": 1484653228161,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0e3e1285-777d-47df-b7e1-a1fd6b34eb4a",
+    "endEventUuid": "85a66398-a42f-4154-b1d4-0d0c5c969fe1",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484653163550,
+    "endTime": 1484655178549,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fbe0cd70-5c90-4df4-9760-c0f747ca15b5",
+    "endEventUuid": "5577de88-a88a-490e-a0f8-82b9914f27c6",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484653248152,
+    "endTime": 1484653248152,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6f1afbcd-b377-4378-9c1a-0a678f3a8013",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_EUROMAX",
+    "startTime": 1484654979636,
+    "endTime": 1484657904637,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bd9adeee-8b2f-4a9e-b05c-904332160579",
+    "endEventUuid": "fd8ccf05-a68e-4ab2-9970-a69404ff8624",
+    "title": "WATERBOOT 15 is inside ect_euromax",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484655041985,
+    "endTime": 1484657836335,
+    "shipMmsi": "245088000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "9fb2b43e-d23a-46bf-be73-2c3ee11d237d",
+    "endEventUuid": "46dbce38-f2e6-4350-b788-fd7381e268bf",
+    "title": "water WATERBOOT 15 is alongside ENERGIZER",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484655048146,
+    "endTime": 1484655048146,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e0b493dd-cb88-4eeb-a1fd-daea7c1a8aab",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484655178225,
+    "endTime": 1484657843181,
+    "shipMmsi": "244670996",
+    "startEventUuid": "db59e6c2-79cf-46e6-8338-ae48dbfd2c2c",
+    "endEventUuid": "a44e6ac0-2b01-49fc-b3c4-4a196c9e5d08",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484657778550,
+    "endTime": 1484659663576,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6f4c7c66-3ef5-4db7-b72f-3e145b674469",
+    "endEventUuid": "17bb5fbc-ad70-4d46-ba20-f5743f8ccd7f",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484657808152,
+    "endTime": 1484657808152,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c1ae28d1-7ad2-45c6-b284-ac64f47d5517",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484659488172,
+    "endTime": 1484659488172,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8f82e9d6-a832-41ce-b3e7-9735fa43206b",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484660508311,
+    "endTime": 1484724097650,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ca555e4b-208d-41de-9fc8-69632f35ecc6",
+    "endEventUuid": "802f73ff-440b-43b2-9d41-76c9b8e00e4d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1484722532461,
+    "endTime": 1484722532461,
+    "shipMmsi": "244670996",
+    "startEventUuid": "17663f21-a86a-4567-9b1a-73d720afba91",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1484722652426,
+    "endTime": 1484722652426,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6bd64090-54b5-4ca7-9cce-64f3305a51cd",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484723967730,
+    "endTime": 1484726177727,
+    "shipMmsi": "244670996",
+    "startEventUuid": "dd969d8f-45bc-46b5-868b-ded649709f77",
+    "endEventUuid": "fc20128f-4b4f-47d6-ada7-b1349b7a6577",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484724092416,
+    "endTime": 1484724092416,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e5ed0d29-998b-4773-ae0d-58c7743eea60",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484725652426,
+    "endTime": 1484725652426,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b7e87260-adfc-4ee7-a6a2-c8e69f38bed4",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484726171245,
+    "endTime": 1484729485821,
+    "shipMmsi": "229879000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "9e5ebbf4-8d01-45ad-bd49-33dbe0216647",
+    "endEventUuid": "3e38687b-7de3-4cac-9405-339b7393d1b4",
+    "title": "water WATERBOOT 15 is alongside BALTIC SWIFT",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484726177635,
+    "endTime": 1484729427661,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fdae2def-c4ab-4064-ba19-facec366dcbb",
+    "endEventUuid": "9393cf12-b1ee-4a87-8772-1e0aa1727f83",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484729102736,
+    "endTime": 1484729297729,
+    "shipMmsi": "244670996",
+    "startEventUuid": "28e01957-2350-41d8-b557-5e8e8cbdb69b",
+    "endEventUuid": "ceae3569-0211-424a-834e-a9de5a1cc4c1",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484729427730,
+    "endTime": 1484730402728,
+    "shipMmsi": "244670996",
+    "startEventUuid": "729c19d9-f390-4943-a75c-e48cec1bfc6f",
+    "endEventUuid": "3bede735-aeca-4bc6-a2e2-054f68d8a993",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484729432485,
+    "endTime": 1484729432485,
+    "shipMmsi": "244670996",
+    "startEventUuid": "14b2eded-f2e1-464e-a945-bb0e74043b5b",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484729672471,
+    "endTime": 1484729672471,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b5205af7-96f7-4170-ab96-2bf7065a6bc4",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484729681246,
+    "endTime": 1484736635965,
+    "shipMmsi": "273357330",
+    "otherMmsi": "244670996",
+    "startEventUuid": "8c5b9ad6-6af6-4c5d-917f-98d8299f2a97",
+    "endEventUuid": "f5c9187a-64a0-409b-9c8a-595fa888bcef",
+    "title": "water WATERBOOT 15 is alongside ENISEY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484730402646,
+    "endTime": 1484736187621,
+    "shipMmsi": "244670996",
+    "startEventUuid": "accf5636-51d3-4d3e-ab75-4291a46bf930",
+    "endEventUuid": "8b967049-664e-4ca3-97e5-e710f33c4ba2",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1484733812442,
+    "endTime": 1484733812442,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0bb26b58-2a57-4d2d-9b0c-2e69aa7d8dae",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1484734052441,
+    "endTime": 1484734052441,
+    "shipMmsi": "244670996",
+    "startEventUuid": "34058307-8b62-4c28-933e-b9b39c38ffe9",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484736187727,
+    "endTime": 1484738332731,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c8e5a28f-0ea6-4ffd-97e8-d726ef382105",
+    "endEventUuid": "05608417-f465-49a2-91e5-b13c22eeae9f",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484736572424,
+    "endTime": 1484736572424,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5a5df11c-ac20-4663-8022-e9c29a570a06",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484738132459,
+    "endTime": 1484738132459,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c80cace1-f46b-4055-8b47-ef1a605b2247",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484738527700,
+    "endTime": 1484741127631,
+    "shipMmsi": "244670996",
+    "startEventUuid": "097c644e-e069-4483-91d2-65befbadb947",
+    "endEventUuid": "98159245-b5b0-47d8-a4f8-fbd6b94f18ed",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484741127732,
+    "endTime": 1484756077729,
+    "shipMmsi": "244670996",
+    "startEventUuid": "212dd75d-1112-490b-9f13-98f22a8d9776",
+    "endEventUuid": "b4180fd2-79f0-4642-b784-1529b17507ce",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484741852419,
+    "endTime": 1484741852419,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b46be1fd-f146-4944-a954-d91d138dd161",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1484745332517,
+    "endTime": 1484745332517,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b3cd7b2f-4699-4c35-8254-0a9f0c82788f",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1484753132480,
+    "endTime": 1484753132480,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cf3b25fc-8b54-4de7-affb-bda86c6ced03",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484755892476,
+    "endTime": 1484755892476,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c7832f59-5a76-46ef-80d2-0b5dacb735ab",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484758612647,
+    "endTime": 1484810937793,
+    "shipMmsi": "244670996",
+    "startEventUuid": "96f49d79-0cbf-45cd-bd91-d4275a933d09",
+    "endEventUuid": "af1a2866-f23a-4d61-8f7f-16aa7670e091",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ROTTERDAM",
+    "endTime": 1484773819174,
+    "shipMmsi": "244670996",
+    "endEventUuid": "07ef6861-ad73-412b-8fdf-3d2a1cd4fbac",
+    "title": "WATERBOOT 15 is inside rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ROTTERDAM",
+    "startTime": 1484773884199,
+    "endTime": 1484811714164,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4943e2a4-02b5-4a4e-b711-171e409be1a2",
+    "endEventUuid": "02dbda6d-dc97-43f9-a1ce-2e247cffa08e",
+    "title": "WATERBOOT 15 is inside rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484810937724,
+    "endTime": 1484816462730,
+    "shipMmsi": "244670996",
+    "startEventUuid": "377bfecf-7a7d-4f85-9741-b726fc8050f7",
+    "endEventUuid": "af126db4-57a1-4717-af1f-5e19340abef1",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484811332426,
+    "endTime": 1484811332426,
+    "shipMmsi": "244670996",
+    "startEventUuid": "98dd0684-9fb4-4692-84b7-30e6012482a7",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ROTTERDAM",
+    "startTime": 1484815224165,
+    "endTime": 1484837129165,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1dbc9910-bec8-4b0b-9caf-6aefb548147d",
+    "endEventUuid": "0af17756-719a-43b6-89ce-786dc2bdb7b0",
+    "title": "WATERBOOT 15 is inside rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484816192476,
+    "endTime": 1484816192476,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e4cb79cb-8ddf-42e9-a33b-51fe965fae96",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484816196242,
+    "endTime": 1484817040930,
+    "shipMmsi": "235050032",
+    "otherMmsi": "244670996",
+    "startEventUuid": "d77761f8-3866-4c0a-b40b-6eba40909ee5",
+    "endEventUuid": "87fa8b4f-3a4a-4bc4-9c93-10080f6d7cd2",
+    "title": "water WATERBOOT 15 is alongside STOLT KITTIWAKE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484816196244,
+    "endTime": 1484817040545,
+    "shipMmsi": "244830366",
+    "otherMmsi": "244670996",
+    "startEventUuid": "fc0e0886-9826-4961-98d6-4abb01cd6ded",
+    "endEventUuid": "22222835-3b15-4fec-b2ed-b068d5a6601e",
+    "title": "water WATERBOOT 15 is alongside BERINGZEE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484816917727,
+    "endTime": 1484818152729,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9bb812a7-b7c7-4589-86d5-e09277a0ef00",
+    "endEventUuid": "878488a9-88af-4e5d-add6-99cc0205fcb3",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484817032480,
+    "endTime": 1484817032480,
+    "shipMmsi": "244670996",
+    "startEventUuid": "311817b6-d856-44e9-b2ca-ac4d6e0a09f4",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484817752475,
+    "endTime": 1484817752475,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6cd89c2e-f102-40b2-9d81-08cd15ca3fd0",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484817951240,
+    "endTime": 1484830170948,
+    "shipMmsi": "244730469",
+    "otherMmsi": "244670996",
+    "startEventUuid": "3ad16506-e8b1-42da-a146-70586d4e93fe",
+    "endEventUuid": "fba94606-d36d-4459-a95c-b1787334936b",
+    "title": "water WATERBOOT 15 is alongside LADY ADELE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484818152777,
+    "endTime": 1484830177783,
+    "shipMmsi": "244670996",
+    "startEventUuid": "58af630f-3502-47de-bab5-6d0d299d56b9",
+    "endEventUuid": "2b6fa83e-c04a-4b13-8971-208c787421b3",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1484822372496,
+    "endTime": 1484822372496,
+    "shipMmsi": "244670996",
+    "startEventUuid": "36f7ed57-16f4-487d-940c-81454456e3cc",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1484830172492,
+    "endTime": 1484830172492,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3387c3be-9d61-4a9c-a9f5-a675dbf2fee9",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484830242730,
+    "endTime": 1484831672728,
+    "shipMmsi": "244670996",
+    "startEventUuid": "70decbba-b2b5-4bc1-ad2d-3426e06945df",
+    "endEventUuid": "a73d56be-65c8-4293-b707-18282f5143c6",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484830352422,
+    "endTime": 1484830352422,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6636f10d-57c9-4ed7-9643-00f2004e06fc",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484831492476,
+    "endTime": 1484831492476,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3052f950-4729-4f31-9273-8586b79243ae",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484831666379,
+    "endTime": 1484836215753,
+    "shipMmsi": "310704000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "471774a2-0c53-42f2-ad16-8e7bede7a419",
+    "endEventUuid": "5cad2e0b-1681-4a9c-a5aa-efc7e5f8b985",
+    "title": "water WATERBOOT 15 is alongside SICHEM MARSEILLE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484831672940,
+    "endTime": 1484836222842,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9ba9dcb3-8e57-455f-86fa-e12961199739",
+    "endEventUuid": "c34c6e8e-4255-4d8c-aa45-341906f16dc0",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484836172485,
+    "endTime": 1484836172485,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cb9432d9-6385-44fd-a80f-ef84bdeb9f4a",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484836222742,
+    "endTime": 1484840317731,
+    "shipMmsi": "244670996",
+    "startEventUuid": "72e27f0d-5f36-455a-b039-09fdb7742925",
+    "endEventUuid": "771e648c-50f2-4418-aa1e-fa6d97164e13",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ROTTERDAM",
+    "startTime": 1484839664164,
+    "shipMmsi": "244670996",
+    "startEventUuid": "55dcee23-b9af-4663-9adf-8078c5fa8243",
+    "title": "WATERBOOT 15 is inside rotterdam",
+    "status": "STARTED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484840012478,
+    "endTime": 1484840012478,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cf905b4e-427c-47f9-8808-6ca9518e5b01",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484840192437,
+    "endTime": 1484840192437,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a1057912-a383-4071-9ba9-feb1326540ce",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484840317957,
+    "endTime": 1484896217858,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8385196e-56ac-4f30-a46f-473e7aecbfe8",
+    "endEventUuid": "3867cb3a-1985-4702-ae25-d4631ff8bd0a",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484896152735,
+    "endTime": 1484896997732,
+    "shipMmsi": "244670996",
+    "startEventUuid": "387002ce-ce22-4832-a63b-d679985dfaa8",
+    "endEventUuid": "10ba9123-4c3b-4c56-bcc8-0fa4052e65ff",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484896232437,
+    "endTime": 1484896232437,
+    "shipMmsi": "244670996",
+    "startEventUuid": "385968bb-a25b-451e-9193-bea1053daace",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484896471253,
+    "endTime": 1484904205758,
+    "shipMmsi": "311092000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "90838835-bcfd-4f5d-859f-2be5e5eeb414",
+    "endEventUuid": "c35aee94-71f3-4ccd-862a-bf2d294ffc81",
+    "title": "water WATERBOOT 15 is alongside NAVION OSLO",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484896532474,
+    "endTime": 1484896532474,
+    "shipMmsi": "244670996",
+    "startEventUuid": "563e7bbf-e017-4cbf-8620-b1c07628510e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484896997855,
+    "endTime": 1484904212956,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2bf2e9b4-83ac-4356-838d-84bb624b66d9",
+    "endEventUuid": "e1c682d9-766e-4930-8a2e-b045215ef64d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484904147737,
+    "endTime": 1484904797727,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a0d1169d-5e1a-4bcd-9064-5a4aaf69d4c0",
+    "endEventUuid": "4fd7f8ea-ab6e-4373-bf9f-eb2247596d2e",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484904152521,
+    "endTime": 1484904152521,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6d7db790-21ee-46e4-b871-dc2a28bde8fc",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484904512443,
+    "endTime": 1484904512443,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c8ee3c17-ebe9-4902-9cc3-7adf8d4e9783",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484904797865,
+    "endTime": 1484909022829,
+    "shipMmsi": "244670996",
+    "startEventUuid": "65118b38-6c46-4376-833e-40efdfd47b8e",
+    "endEventUuid": "b4a023ba-b0c9-4097-b5a0-27d6fe2df03f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484909022732,
+    "endTime": 1484910777734,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d187560f-7880-4604-9018-c22675cb63d0",
+    "endEventUuid": "7bdacdaf-071e-444f-a3db-701454fcedfe",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484909132475,
+    "endTime": 1484909132475,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ee1bc9d8-d36e-4b02-a287-a78568a922be",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1484910644120,
+    "endTime": 1484913569120,
+    "shipMmsi": "244670996",
+    "startEventUuid": "515d3bde-0a5b-45b6-bb4a-bc343271ef81",
+    "endEventUuid": "2c471a63-12d0-42cc-869b-10675c66753c",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484910692475,
+    "endTime": 1484910692475,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d036047f-4525-410c-ad63-fd870aedef43",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484910706282,
+    "endTime": 1484915060923,
+    "shipMmsi": "212396000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "e8c68c42-8c84-46c8-8c33-271c2c776e27",
+    "endEventUuid": "5d85fef8-ac35-4974-ab7b-f18b66f88351",
+    "title": "water WATERBOOT 15 is alongside STRANDWAY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "APM1",
+    "startTime": 1484910708956,
+    "endTime": 1484915063956,
+    "shipMmsi": "244670996",
+    "startEventUuid": "576034b0-b891-4fd4-99ad-9732aae4b5c6",
+    "endEventUuid": "ebe09886-7915-4a4b-8f5f-3fe48861e53d",
+    "title": "WATERBOOT 15 is inside apm1",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484910777801,
+    "endTime": 1484915067815,
+    "shipMmsi": "244670996",
+    "startEventUuid": "84f361f1-b085-49c4-81c1-e237a274ae83",
+    "endEventUuid": "c0436e60-b4a5-43e8-8b97-d0fcda0b2752",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484914612727,
+    "endTime": 1484915522723,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4da9b7b2-6fd9-4521-ae48-9b7a783f47fb",
+    "endEventUuid": "575b1281-153d-44c3-888d-5208a2c45668",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484915012484,
+    "endTime": 1484915012484,
+    "shipMmsi": "244670996",
+    "startEventUuid": "68a3b9ae-15ec-4873-9a64-522ef41e0659",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_EUROMAX",
+    "startTime": 1484915389066,
+    "endTime": 1484916689065,
+    "shipMmsi": "244670996",
+    "startEventUuid": "98ea1719-bbac-48a5-9596-90464b430a6f",
+    "endEventUuid": "59ec3c8c-bed9-4881-827a-2fe583cf6ab0",
+    "title": "WATERBOOT 15 is inside ect_euromax",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484915432426,
+    "endTime": 1484915432426,
+    "shipMmsi": "244670996",
+    "startEventUuid": "aa7d15ac-d1e2-46e6-8666-98dbac5a1c44",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484915522852,
+    "endTime": 1484916497866,
+    "shipMmsi": "244670996",
+    "startEventUuid": "792f9998-7ff3-40dc-9a1f-f8be6a58d47f",
+    "endEventUuid": "cb469a1f-46ce-40c1-94f3-d175330d7ca5",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484916272469,
+    "endTime": 1484916272469,
+    "shipMmsi": "244670996",
+    "startEventUuid": "111beea6-074c-4c37-8fc4-9fe33fdeb832",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484916302736,
+    "endTime": 1484917602732,
+    "shipMmsi": "244670996",
+    "startEventUuid": "269e13e2-0eba-4620-8038-9fe501a94248",
+    "endEventUuid": "0eeaae79-decf-475f-b950-2e1bd66a0e74",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "RWG",
+    "startTime": 1484917339046,
+    "endTime": 1484924684046,
+    "shipMmsi": "244670996",
+    "startEventUuid": "12e77437-aefb-4239-b135-031aa43dfee8",
+    "endEventUuid": "d59e4d59-e940-4b72-b29e-ca13245082ce",
+    "title": "WATERBOOT 15 is inside rwg",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484917412474,
+    "endTime": 1484917412474,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e7462325-2b3b-4034-b7be-1a1fa68cf1e5",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484917466354,
+    "endTime": 1484924680544,
+    "shipMmsi": "245107000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "ff134338-65b4-4cd5-8243-5dd6e4cf78a2",
+    "endEventUuid": "ec100bea-00af-477a-b61a-15752847ecb1",
+    "title": "water WATERBOOT 15 is alongside EVIDENCE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484918577788,
+    "endTime": 1484924558527,
+    "shipMmsi": "244670996",
+    "startEventUuid": "05da12c2-353b-49bb-b9b5-ccf0401c002e",
+    "endEventUuid": "5d2ebe89-6f58-4f6c-9877-365d84d8af24",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484924552471,
+    "endTime": 1484924552471,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5265ad75-9845-429f-ae0c-f23e94ae7404",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484924557731,
+    "endTime": 1484927157744,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4cf16945-7a0f-443d-97b6-b33d895cab1f",
+    "endEventUuid": "c4380508-e69e-461c-b3e9-f034dfbdf678",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1484926114120,
+    "endTime": 1484926374120,
+    "shipMmsi": "244670996",
+    "startEventUuid": "63d8862d-93b5-471e-930d-2d75b8d236a7",
+    "endEventUuid": "0b89416d-58e9-4de0-95c2-747e1e1dfe0d",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484926952527,
+    "endTime": 1484926952527,
+    "shipMmsi": "244670996",
+    "startEventUuid": "13155d68-6053-4dba-b157-97f7d7380ec4",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1484926956331,
+    "endTime": 1484930270815,
+    "shipMmsi": "246646000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "6004e009-21a5-4b79-a42a-d6b5506235b7",
+    "endEventUuid": "31a421cf-fc78-4778-9678-299817f72258",
+    "title": "water WATERBOOT 15 is alongside ROME",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484927157830,
+    "endTime": 1484930277823,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7698d1fa-56c8-42c6-9563-b97c4595ddda",
+    "endEventUuid": "59328e8d-9c81-48fc-aa55-9df115dac7b8",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1484930147726,
+    "endTime": 1484932422727,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9c780290-2a1e-444e-89b3-57a3b0737a5d",
+    "endEventUuid": "066504c8-898c-408a-b9b6-93aeb08d4f05",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484930252475,
+    "endTime": 1484930252475,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9a569873-0aa3-45e9-b789-b788b8a93775",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1484932112438,
+    "endTime": 1484932112438,
+    "shipMmsi": "244670996",
+    "startEventUuid": "048cdceb-bbbd-4314-9ff7-1f8650dac2b6",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1484932422907,
+    "endTime": 1485158493091,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ba7307d6-f943-4407-9251-8fd0f7eaa923",
+    "endEventUuid": "c7f9ebc3-90ed-4a18-9dad-80f10bc88b0f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485158427729,
+    "endTime": 1485159597725,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1de1d6ae-8c84-435a-bf85-01a37c3a771f",
+    "endEventUuid": "30801a47-77f5-40da-b3f4-f45ee310b84d",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485159597891,
+    "endTime": 1485164082837,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0158c7d2-ac7f-43cd-a3ff-2b4550f41671",
+    "endEventUuid": "939b39fa-506a-42d3-8add-d59325a88c60",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485159656252,
+    "endTime": 1485164075935,
+    "shipMmsi": "432786000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "0dc5b89e-71e6-442c-aea2-2eb3476966f6",
+    "endEventUuid": "e4644cb2-1100-400d-a065-4c5d1309fede",
+    "title": "water WATERBOOT 15 is alongside CAPE SAKURA",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485164017730,
+    "endTime": 1485164602723,
+    "shipMmsi": "244670996",
+    "startEventUuid": "61de87fd-5997-4e07-bcc5-13d02e1ef207",
+    "endEventUuid": "127294df-f550-4c4e-8749-e20380c50b38",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485164072424,
+    "endTime": 1485164072424,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2c1a214b-eaf6-4687-ae8f-51e97cf74766",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485164312470,
+    "endTime": 1485164312470,
+    "shipMmsi": "244670996",
+    "startEventUuid": "407b0b0c-4cf5-428d-9e80-9c240f281b65",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485165382726,
+    "endTime": 1485167982725,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6b142680-ef33-493a-8510-635161e1e0b3",
+    "endEventUuid": "4392e464-91e1-4058-a8b8-5a2348b369aa",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485165452435,
+    "endTime": 1485165452435,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9634f454-4301-404b-912f-c5db7de3a8d8",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485167614483,
+    "endTime": 1485167614483,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d6bed248-1af0-405b-bb61-e3b6776033c6",
+    "title": "WATERBOOT 15 approaches Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485167674245,
+    "endTime": 1485167674245,
+    "shipMmsi": "244670996",
+    "startEventUuid": "64ed9f46-91f8-45c0-a52f-7ad10c3421da",
+    "title": "WATERBOOT 15 passed Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485167852548,
+    "endTime": 1485167852548,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d22dcdde-b33f-4243-a9ba-9dba5ee4d1d3",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485167911250,
+    "endTime": 1485169406109,
+    "shipMmsi": "246822000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "0ad1df1a-ad1e-44e5-bf3f-400f236ff4cb",
+    "endEventUuid": "346ff62b-f8ac-4067-92f4-ccbd4baecaec",
+    "title": "water WATERBOOT 15 is alongside H&S FAIRNESS",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485167911253,
+    "endTime": 1485169405580,
+    "shipMmsi": "314021000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "4ae45ece-ae07-4447-9015-8a345e467b5a",
+    "endEventUuid": "dedf3b51-45ed-4beb-afea-fb8f18e95458",
+    "title": "water WATERBOOT 15 is alongside FLUVIUS TEIGN",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485167982834,
+    "endTime": 1485169282803,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ee44af2c-24ac-4cd4-a044-b0e7c8612fbb",
+    "endEventUuid": "ec23e5a7-f708-4bff-a5b0-22f7acb233e8",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485169347739,
+    "endTime": 1485171492732,
+    "shipMmsi": "244670996",
+    "startEventUuid": "11450391-121a-4e35-84e1-2034bda1d5f9",
+    "endEventUuid": "4477d7e5-c6b7-49c6-8eb8-7fa77801a6a8",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485169352523,
+    "endTime": 1485169352523,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c5e2d9bf-af64-4392-bb6c-f3d57b7467e8",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485169474476,
+    "endTime": 1485169474476,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f6e8330f-8bac-46de-aeef-91c10e8c34c0",
+    "title": "WATERBOOT 15 approaches Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485169594192,
+    "endTime": 1485169594192,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7a68cb31-bd6e-496c-808d-9e97260e2193",
+    "title": "WATERBOOT 15 passed Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485171272422,
+    "endTime": 1485171272422,
+    "shipMmsi": "244670996",
+    "startEventUuid": "75c5b84f-8f31-44a8-b1c7-8b3215b7f7a2",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485173312724,
+    "endTime": 1485173442742,
+    "shipMmsi": "244670996",
+    "startEventUuid": "70886aeb-0407-4fba-9178-aa92e41e5e4c",
+    "endEventUuid": "abb48d5c-ea7c-43e0-82cb-122964237502",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485173443009,
+    "endTime": 1485174872931,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8ca2e863-40ee-498f-af78-93f3bc620bbe",
+    "endEventUuid": "4b860fa8-d871-4413-bbab-1d457e650aa4",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485174807737,
+    "endTime": 1485175197736,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5214eb9f-9156-4da0-840c-7352eb53dec1",
+    "endEventUuid": "d4786d86-e973-4be3-b3c6-bf6f030ffc50",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485174872510,
+    "endTime": 1485174872510,
+    "shipMmsi": "244670996",
+    "startEventUuid": "740ecc00-20ac-4cfd-80ee-b3eae7c27699",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485175052468,
+    "endTime": 1485175052468,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f8f798f9-8c24-408a-8737-480faae9535c",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485175262844,
+    "endTime": 1485243180643,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3335ac62-cf33-4220-a450-a22eef1f775e",
+    "endEventUuid": "0441bb94-7fa8-449e-bfdf-1db0e36a11b7",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1485241055374,
+    "endTime": 1485241055374,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a6c74964-6402-4df0-93e6-01115c009ca3",
+    "title": "AIS Signal discovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485243115680,
+    "endTime": 1485243895681,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c0da22c0-3a8a-4603-945b-4c1127c0dc8f",
+    "endEventUuid": "a6cac32f-4fca-4c8f-bd87-f29b502b59d0",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485243155318,
+    "endTime": 1485243155318,
+    "shipMmsi": "244670996",
+    "startEventUuid": "516f6cf6-71cb-4a74-91ff-7861ac779cea",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485243694003,
+    "endTime": 1485247528490,
+    "shipMmsi": "636092141",
+    "otherMmsi": "244670996",
+    "startEventUuid": "efad354b-9594-4b25-92dc-5b6cb6d94a12",
+    "endEventUuid": "883b4450-6a2d-4644-b6e2-ae8592663a64",
+    "title": "water WATERBOOT 15 is alongside RHL DRESDEN",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485243695331,
+    "endTime": 1485243695331,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2d26d050-d99e-4867-abba-72c30e5f7765",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485243895538,
+    "endTime": 1485247470585,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cd4d3518-564b-46d2-aa79-6a08e7cbf716",
+    "endEventUuid": "12341551-4593-4973-9358-7eaf588303b0",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485247470695,
+    "endTime": 1485248250690,
+    "shipMmsi": "244670996",
+    "startEventUuid": "733b6801-c87e-4fab-817f-ef7b89f2d7f5",
+    "endEventUuid": "34c365b2-26ed-477e-ba5a-0b245ebb09ab",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485247535405,
+    "endTime": 1485247535405,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e39ef173-4529-463f-9789-ada12098a9c5",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485248195371,
+    "endTime": 1485248195371,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fe2a959f-988a-4d69-8ed1-c6de545c74d3",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485248315627,
+    "endTime": 1485360452572,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ca02d8aa-4230-48ec-a8f6-2f37fbfb8d8a",
+    "endEventUuid": "a180213b-ab0d-48ee-92e9-85e3b79b3161",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485360432421,
+    "endTime": 1485360432421,
+    "shipMmsi": "244670996",
+    "startEventUuid": "caf8ea86-4e5c-490e-bf96-ecac6b7404d5",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485360453116,
+    "endTime": 1485361558101,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5d63da45-cba9-4439-a19e-903d2bf48654",
+    "endEventUuid": "de4ecd17-5453-4634-bf62-c90a842140d9",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485361392422,
+    "endTime": 1485361392422,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2fef1ef5-05f5-412b-90aa-08c0f149e92a",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485361622584,
+    "endTime": 1485370716244,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3035d3f4-2dd0-4750-a966-c0910a225dce",
+    "endEventUuid": "5661d4ac-1508-48c3-8d6d-5d03f30a1782",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485367596624,
+    "endTime": 1485370716243,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d9593056-ef17-4473-8400-7626d935af74",
+    "endEventUuid": "8e6333fa-f128-4a8d-8790-f071518bd41d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485370716497,
+    "endTime": 1485371821496,
+    "shipMmsi": "244670996",
+    "startEventUuid": "43522ce0-9a23-4e69-97a5-29ca0e3601be",
+    "endEventUuid": "52731db8-8cd2-4e66-be3a-ca23bcaf7b30",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485370770977,
+    "endTime": 1485370770977,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c2891368-3b48-4ea4-8388-28380a11e761",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485371550975,
+    "endTime": 1485371550975,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6a9a5e03-7368-4720-8107-7892c47b92fe",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485371821200,
+    "endTime": 1485372601172,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6162b9d5-8119-401c-afe7-48d97e78fbe1",
+    "endEventUuid": "a9a15907-c475-495e-a956-478170e3d925",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485374349455,
+    "endTime": 1485381563754,
+    "shipMmsi": "636015761",
+    "otherMmsi": "244670996",
+    "startEventUuid": "bd07541c-897b-49fd-a7d6-a44507f24bb1",
+    "endEventUuid": "66261143-6ea6-4ffd-a558-79ff25f8f14c",
+    "title": "water WATERBOOT 15 is alongside ALMI SKY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485374681148,
+    "endTime": 1485381506279,
+    "shipMmsi": "244670996",
+    "startEventUuid": "39f8294b-3c3f-43ad-9751-61449a2bce00",
+    "endEventUuid": "1fb7c005-0938-4955-a186-8a24cb707c2c",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485381450960,
+    "endTime": 1485381450960,
+    "shipMmsi": "244670996",
+    "startEventUuid": "935ff2d1-2334-4ddd-a0ba-64f428754266",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485381506495,
+    "endTime": 1485382546492,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7227d5c4-974c-43d0-a741-581361e3574f",
+    "endEventUuid": "284be6d1-6d86-4b8b-9a28-ef67b6884539",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485382050979,
+    "endTime": 1485382050979,
+    "shipMmsi": "244670996",
+    "startEventUuid": "72a2d12d-88e6-4af7-9b3a-a8032f3b6948",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485382531266,
+    "endTime": 1485382531266,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7bac3ef4-9c46-4338-8d9d-ca307bc7f8eb",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485382546164,
+    "endTime": 1485501974452,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6708b0b3-ad29-423b-8aad-cfd0fa86bf09",
+    "endEventUuid": "d4619e4c-3dc9-4aae-8bb2-22e1fe82571f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485501909313,
+    "endTime": 1485502364308,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4a3ccac4-afdf-4d49-b67d-89fb517ca148",
+    "endEventUuid": "6522aff8-8e55-44d1-9cdb-50b74702f6c0",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485501953738,
+    "endTime": 1485501953738,
+    "shipMmsi": "244670996",
+    "startEventUuid": "1acc7fd3-6b2b-42ed-b3a5-5b27bacd8d24",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "endTime": 1485501974453,
+    "shipMmsi": "244670996",
+    "endEventUuid": "198f83dc-a25a-41ea-9996-e7c96215845d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485502193746,
+    "endTime": 1485502193746,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f377821e-a5b0-4dcb-9f3f-3e98385d5bc6",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485502617003,
+    "endTime": 1485503006299,
+    "shipMmsi": "215375000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "d0203e3d-3f42-476c-9934-b1a9a822fdbf",
+    "endEventUuid": "b15b58db-cf2a-4908-ad4a-d8fca98a2db9",
+    "title": "water WATERBOOT 15 is alongside M\\T GEORGIA",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485502949304,
+    "endTime": 1485509059313,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a9e96e05-9280-41fd-9e66-d90967177aad",
+    "endEventUuid": "7396d9d5-1407-4ada-860b-6b522e321205",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485503033743,
+    "endTime": 1485503033743,
+    "shipMmsi": "244670996",
+    "startEventUuid": "81110874-cd30-4aa5-911d-dcd44bffd68e",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ECT_DELTA",
+    "startTime": 1485505024819,
+    "endTime": 1485506064820,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ee3721ca-c6fd-4443-819f-b4f3b16740b8",
+    "endEventUuid": "e56fbe07-1c56-48af-9013-83239512f5ba",
+    "title": "WATERBOOT 15 is inside ect_delta",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485505613741,
+    "endTime": 1485505613741,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d8c002d6-bede-47c2-aa26-719aaa2cff77",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485507173751,
+    "endTime": 1485507173751,
+    "shipMmsi": "244670996",
+    "startEventUuid": "dbde646e-6fec-40ac-8248-0f12e4750f33",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485509033738,
+    "endTime": 1485509033738,
+    "shipMmsi": "244670996",
+    "startEventUuid": "32bc7489-7c8b-4774-a7cb-177974f7965e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485521529291,
+    "endTime": 1485532373672,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4f9d057d-de1f-4dc2-85d4-bc1bf6a0e0df",
+    "endEventUuid": "3c31faa6-a3d7-40ad-989c-a79c8e0e94a6",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485532368322,
+    "endTime": 1485532368322,
+    "shipMmsi": "244670996",
+    "startEventUuid": "019eeb6a-2d24-4085-b773-5dcb5ededef3",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485533926981,
+    "endTime": 1485538924259,
+    "shipMmsi": "372448000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "a7412fe3-aa3a-4704-ba3e-3a2b0d5db66f",
+    "endEventUuid": "55b94695-2939-4f52-a80c-608ff4cfc3f1",
+    "title": "water WATERBOOT 15 is alongside ARGENT EYEBRIGHT",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485533928331,
+    "endTime": 1485533928331,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c05b2212-ade9-4ff5-9e72-3bb41ec40a6c",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "endTime": 1485534193898,
+    "shipMmsi": "244670996",
+    "endEventUuid": "97af335d-00c1-482c-843e-0e6ba947656a",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485538800972,
+    "endTime": 1485540230964,
+    "shipMmsi": "244670996",
+    "startEventUuid": "41bb9e04-2c21-40a5-bddd-d5d1e1361545",
+    "endEventUuid": "a5030079-8428-4dc7-9f55-e8706cb22ccd",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485538870603,
+    "endTime": 1485538870603,
+    "shipMmsi": "244670996",
+    "startEventUuid": "520a1b1c-a7bb-4271-9b5a-4db8ade6bf1d",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485539950651,
+    "endTime": 1485539950651,
+    "shipMmsi": "244670996",
+    "startEventUuid": "41da7619-5e3f-4686-9e39-94ed9bc85c18",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485540159429,
+    "endTime": 1485541134199,
+    "shipMmsi": "244810693",
+    "otherMmsi": "244670996",
+    "startEventUuid": "01031692-d09c-46d5-9a22-87590ee4c7d4",
+    "endEventUuid": "9db3a328-8d34-48a7-bec8-72c329fdf6e1",
+    "title": "water WATERBOOT 15 is alongside MARTINIQUE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485540159430,
+    "endTime": 1485541133756,
+    "shipMmsi": "565026000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "5185ac81-56d9-4bb9-b07b-49d66e0bba80",
+    "endEventUuid": "db6240c5-7b03-4096-9960-34581bbafaaf",
+    "title": "water WATERBOOT 15 is alongside MAERSK ARCTIC",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485540230847,
+    "endTime": 1485541140858,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fa3226a8-7def-464f-9c6f-9a3dd4784591",
+    "endEventUuid": "4d667d52-eee7-4b9b-9be5-f36f51cd87ef",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485541075969,
+    "endTime": 1485542700965,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c5248836-092c-4619-bf95-1c268777fec1",
+    "endEventUuid": "22f74e86-1612-4f58-977a-7200f9b7f5e8",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485541090596,
+    "endTime": 1485541090596,
+    "shipMmsi": "244670996",
+    "startEventUuid": "30c424d0-3916-418c-90ce-387af683c42b",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485542350689,
+    "endTime": 1485542350689,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2eecefd6-0931-4db6-9225-677dc0006f1e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485542700803,
+    "endTime": 1485761839156,
+    "shipMmsi": "244670996",
+    "startEventUuid": "923d3918-6f38-4bef-b3b3-d74c26a51594",
+    "endEventUuid": "5f432cdd-af7d-4d0e-b6d1-844cda39275e",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1485755268766,
+    "endTime": 1485755268766,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ccdc3144-0315-4f92-bbad-2f35f326459a",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1485756288852,
+    "endTime": 1485756288852,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e4185607-2a00-4ea8-b635-3050d77cf505",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485761808757,
+    "endTime": 1485761808757,
+    "shipMmsi": "244670996",
+    "startEventUuid": "af95c96b-a1c7-4922-9510-63777e8c00f0",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485761839086,
+    "endTime": 1485763789114,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9f7b88a5-eddf-46af-8cf5-1b00c303f5a9",
+    "endEventUuid": "3601c120-505d-4b09-8f0a-c6f89535d410",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485763652561,
+    "endTime": 1485769111962,
+    "shipMmsi": "249435000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "73ccf563-3560-4bc6-bb48-5b40bdb72dc9",
+    "endEventUuid": "555fc1c9-c128-446c-b2d7-85045997ec1d",
+    "title": "water WATERBOOT 15 is alongside CIELO DI CAPRI",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485763668850,
+    "endTime": 1485763668850,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8a0641b6-555e-4c78-aed7-f9d787f4b6fd",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485763789288,
+    "endTime": 1485768989134,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d49395bf-4814-4bfb-be78-31505fdd08b0",
+    "endEventUuid": "cae36131-c37f-4393-bfa3-3d8d92e22c7d",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1485765528857,
+    "endTime": 1485765528857,
+    "shipMmsi": "244670996",
+    "startEventUuid": "690f0e74-2309-4ae6-8de5-c89fcf5cdd79",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1485765708840,
+    "endTime": 1485765708840,
+    "shipMmsi": "244670996",
+    "startEventUuid": "71c4a65e-a78c-482d-9204-482a55dc1905",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1485767868802,
+    "endTime": 1485767868802,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6530b63b-af3e-4781-9251-0d56168777ca",
+    "title": "AIS Signal discovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485768948763,
+    "endTime": 1485768948763,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9c47c43a-888d-469f-88de-b4a24766cc50",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485768989083,
+    "endTime": 1485769964097,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d5b634ee-b60d-4232-82f0-7369e40dc184",
+    "endEventUuid": "fe47f5a3-334e-4875-870c-75c91bbd78a1",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485769728833,
+    "endTime": 1485769728833,
+    "shipMmsi": "244670996",
+    "startEventUuid": "19097cf9-3b14-4199-9370-060f2d3192ac",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485769729203,
+    "endTime": 1485769729203,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f7812063-d7ce-4eec-a152-51b81a9ac789",
+    "title": "WATERBOOT 15 approaches Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485769909022,
+    "endTime": 1485769909022,
+    "shipMmsi": "244670996",
+    "startEventUuid": "90bbd118-c8f2-481d-ae30-fe3e990a89cc",
+    "title": "WATERBOOT 15 passed Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485770152570,
+    "endTime": 1485771127270,
+    "shipMmsi": "205397000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "777caf85-25e6-4372-a523-ee43855899b9",
+    "endEventUuid": "c9525834-4b33-4cbf-a778-ab6e985a9d52",
+    "title": "water WATERBOOT 15 is alongside WATERWAYS 3",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485771069084,
+    "endTime": 1485773539090,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5419a661-2cc7-4e76-b276-eba4e0d480a3",
+    "endEventUuid": "56a35897-0b4f-400e-9eb8-12e7aa63d6c3",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485771108755,
+    "endTime": 1485771108755,
+    "shipMmsi": "244670996",
+    "startEventUuid": "19cd92c2-3231-4bbd-9469-26be0f50efb3",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485771109179,
+    "endTime": 1485771109179,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fc33c207-c9a6-4a31-b7f4-a531f608efb0",
+    "title": "WATERBOOT 15 approaches Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "ENCOUNTERBRIDGE",
+    "startTime": 1485771168980,
+    "endTime": 1485771168980,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c5d6940a-6b11-4d08-9e05-4c832444ab8a",
+    "title": "WATERBOOT 15 passed Calandbrug, verkeers-/spoorbrug",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485773268834,
+    "endTime": 1485773268834,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0a92fe53-415a-4194-bc44-627202f15d1d",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485773539210,
+    "endTime": 1485776139136,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5de9569d-e882-4095-920e-0ff1b68757c7",
+    "endEventUuid": "5b124c50-3912-45b9-bd81-dbff72d90942",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485776009086,
+    "endTime": 1485779129084,
+    "shipMmsi": "244670996",
+    "startEventUuid": "996e392d-d404-4101-9244-f649f50fa994",
+    "endEventUuid": "ff8ecd48-d8fc-4d81-a8e7-e2f41781d213",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485776208863,
+    "endTime": 1485776208863,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f597e256-4891-4fb3-a211-75c9ef987e09",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485779028842,
+    "endTime": 1485779028842,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2d53cfc5-248b-47af-9dea-cc9a6d4dbbf0",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485779057555,
+    "endTime": 1485785752339,
+    "shipMmsi": "218781000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "504549dd-c529-46c7-b5df-e1130bcbb861",
+    "endEventUuid": "8699550c-35e5-4ecd-b608-2b9f5734c785",
+    "title": "water WATERBOOT 15 is alongside INNOVATION",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485781469017,
+    "endTime": 1485785694037,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b38115cc-7264-47d7-8d41-59a7a000ee4e",
+    "endEventUuid": "1c4f695f-078b-4e11-a461-95201ad4e1a0",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485785694081,
+    "endTime": 1485788749088,
+    "shipMmsi": "244670996",
+    "startEventUuid": "61bba4ea-d56f-49a3-a1ef-8b6ca22faaf5",
+    "endEventUuid": "ee9ac4b4-3946-4539-a84b-6b568f79794e",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485785808928,
+    "endTime": 1485785808928,
+    "shipMmsi": "244670996",
+    "startEventUuid": "da50ac97-9f1d-4b03-8cee-2a0725ead58d",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485788388839,
+    "endTime": 1485788388839,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2e7da923-0409-4f40-a459-4d1f49dd12a1",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485788814436,
+    "endTime": 1485848939009,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2e66132b-9a19-47bf-8676-590919cb1c42",
+    "endEventUuid": "91b49578-fb58-4f73-b2cb-fbb0b5436f91",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1485816768833,
+    "endTime": 1485816768833,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ddd5ad77-a5d3-4d17-9af9-12f04035c33c",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1485848928856,
+    "endTime": 1485848928856,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f3198aa7-853e-47a7-a24f-61f0f36467ee",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485848939082,
+    "endTime": 1485852384089,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d68dacfc-f53e-4b94-9ad1-ccf61cf0a06e",
+    "endEventUuid": "8de6f467-0d41-4071-8405-463597f9c763",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485852348851,
+    "endTime": 1485852348851,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3df403c5-0765-4a25-89a9-50ba727a9e33",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485852768771,
+    "endTime": 1485852768771,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a1ec5e00-a589-4f35-8d4c-e53e63e26921",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485852774079,
+    "endTime": 1485853814081,
+    "shipMmsi": "244670996",
+    "startEventUuid": "20fbed00-fe43-4c05-987a-79c3f7e7c780",
+    "endEventUuid": "41fc9cf5-e08d-4c69-9893-a494605c0673",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485853428778,
+    "endTime": 1485853428778,
+    "shipMmsi": "244670996",
+    "startEventUuid": "932bfc76-a5d4-4593-a156-61cd397f829e",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485853668760,
+    "endTime": 1485853668760,
+    "shipMmsi": "244670996",
+    "startEventUuid": "343fa866-a1a1-4f8e-a826-32ca15d3d0ff",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485853807548,
+    "endTime": 1485856991888,
+    "shipMmsi": "245107000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "6493a08f-a9a3-43f5-8b85-ea7403b79999",
+    "endEventUuid": "006e591c-c2f0-4fa3-9c23-04e7f3d5b79b",
+    "title": "water WATERBOOT 15 is alongside EVIDENCE",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485853814014,
+    "endTime": 1485856999014,
+    "shipMmsi": "244670996",
+    "startEventUuid": "dc3008e7-52b6-4428-9e47-e5e37360ba59",
+    "endEventUuid": "790eec8b-053c-468e-b757-b17ce0936384",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485856934088,
+    "endTime": 1485858884089,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2ce370e6-c713-4bf3-afd9-dd9a08853889",
+    "endEventUuid": "0b4f85ca-4b67-4f75-bea6-042258268a08",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485856968883,
+    "endTime": 1485856968883,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b88ef64b-71f2-4a72-816b-cd9c57337d12",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485858288756,
+    "endTime": 1485858288756,
+    "shipMmsi": "244670996",
+    "startEventUuid": "78ced3eb-e58c-4385-bb2e-0bcb70714b0e",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485860148847,
+    "endTime": 1485860148847,
+    "shipMmsi": "244670996",
+    "startEventUuid": "25bbfef0-59be-413b-b27d-7e2b517b5f24",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485860184080,
+    "endTime": 1485861874082,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5a763058-5ced-4cee-a548-8cd9670f840f",
+    "endEventUuid": "9573f880-c49c-4938-87fe-aa3e39815826",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485861588834,
+    "endTime": 1485861588834,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9bcdf7a4-42ee-4f23-9f56-71d2a0a6e0bb",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485861607550,
+    "endTime": 1485866156967,
+    "shipMmsi": "311208000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "179535f2-9039-42d1-8f63-7f95f5322f9c",
+    "endEventUuid": "e37d24fc-ab8c-45f7-87a1-5ee208309ac0",
+    "title": "water WATERBOOT 15 is alongside OCEANIS",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485861874006,
+    "endTime": 1485866098972,
+    "shipMmsi": "244670996",
+    "startEventUuid": "054c231c-97b0-4c62-a403-7e0d744f9e2c",
+    "endEventUuid": "fed91046-008e-494b-a7dc-6dadd91625ff",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485866088834,
+    "endTime": 1485866088834,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bdca65ff-c836-4958-b539-3572a9fac5b4",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485866099086,
+    "endTime": 1485868244091,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9edffcb5-8040-41fe-8d47-f658d2e2ff7f",
+    "endEventUuid": "635af8e5-2873-45e7-a40d-cefbc18b7d87",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485868068778,
+    "endTime": 1485868068778,
+    "shipMmsi": "244670996",
+    "startEventUuid": "8d6a2415-358f-4cd0-a50c-fbabc5d1edbb",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485868373986,
+    "endTime": 1485933179057,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3d9faa42-4d88-4a71-85a3-0dcea7f32468",
+    "endEventUuid": "366c7530-3a09-470c-a151-a480e120a3ae",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485933179077,
+    "endTime": 1485934674085,
+    "shipMmsi": "244670996",
+    "startEventUuid": "634c46e5-bde7-495b-af21-351bd7e1fcf4",
+    "endEventUuid": "74412d3f-d70a-43f5-8e60-89b92471e92e",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485933408757,
+    "endTime": 1485933408757,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d3f10121-4818-40be-b901-ee08bdd85e5c",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485934068818,
+    "endTime": 1485934068818,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ba656451-f89c-499a-ac72-b9b365dad178",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485934472552,
+    "endTime": 1485938697196,
+    "shipMmsi": "245284000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "4156872a-ac40-4aa7-9a46-9d6f0b0be569",
+    "endEventUuid": "d7cd7a2d-39da-4c15-9d52-3ce98546269b",
+    "title": "water WATERBOOT 15 is alongside STELLA-WEGA",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485938688746,
+    "endTime": 1485938688746,
+    "shipMmsi": "244670996",
+    "startEventUuid": "de8d3631-1929-417e-81f1-8612cdd8497a",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485938704087,
+    "endTime": 1485939484083,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a9fc8d0d-3664-4837-a292-034f0773926a",
+    "endEventUuid": "139d36f3-c492-4c2b-b9bb-bfaca776acdd",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485939468819,
+    "endTime": 1485939468819,
+    "shipMmsi": "244670996",
+    "startEventUuid": "815c0a7e-e116-4872-9627-a1d1b40bfd85",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485939484095,
+    "endTime": 1485943903991,
+    "shipMmsi": "244670996",
+    "startEventUuid": "019f05c8-a741-4283-9f11-c179d8edc5f0",
+    "endEventUuid": "e5a3c06e-7f92-419c-b891-378d331715d3",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1485941687544,
+    "endTime": 1485943897205,
+    "shipMmsi": "249702000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "7af84c2d-5fb9-42f3-bbec-e4e1b01139a1",
+    "endEventUuid": "c49f55e6-9f07-4a36-81e9-bc7e98ba4a7f",
+    "title": "water WATERBOOT 15 is alongside ATLANTIS ANTIBES",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485943848842,
+    "endTime": 1485943848842,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b2d26122-95d0-41dc-b5e7-9ab968cbcb3a",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485943904090,
+    "endTime": 1485945074082,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9c9a79c8-75cc-4c8e-b6b6-82222d691428",
+    "endEventUuid": "bbeb4017-41de-4f63-94b1-3fe2cb67adad",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485944868755,
+    "endTime": 1485944868755,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c39b80b4-2700-429f-a87b-5238534f8872",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485944988818,
+    "endTime": 1485944988818,
+    "shipMmsi": "244670996",
+    "startEventUuid": "710f8545-8063-484f-ab09-2558c4b7be69",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485945073991,
+    "endTime": 1485946309226,
+    "shipMmsi": "244670996",
+    "startEventUuid": "e895a950-1429-4ee2-814e-01414dd8bf55",
+    "endEventUuid": "42fc9763-6867-4259-a11e-52cf70db6def",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485946244090,
+    "endTime": 1485946764083,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cec48058-2bb3-4059-94db-cf3958a5040b",
+    "endEventUuid": "53771a9e-00d5-4c42-8737-0bbfe2ff63ca",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485946248820,
+    "endTime": 1485946248820,
+    "shipMmsi": "244670996",
+    "startEventUuid": "eabdeed2-00e1-40ad-a064-8927d64deec6",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485946608756,
+    "endTime": 1485946608756,
+    "shipMmsi": "244670996",
+    "startEventUuid": "96d778a7-0165-4427-8b30-33246942d1fd",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485946728823,
+    "endTime": 1485946728823,
+    "shipMmsi": "244670996",
+    "startEventUuid": "caffc252-a1bc-4fcc-8c0b-e73fe2e54e69",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485948108802,
+    "endTime": 1485948108802,
+    "shipMmsi": "244670996",
+    "startEventUuid": "753450a0-1eb7-43dc-8726-950589ba8df6",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1485948129085,
+    "endTime": 1485949364093,
+    "shipMmsi": "244670996",
+    "startEventUuid": "54c62682-089a-4c79-b3ea-f6f57cc8b9b0",
+    "endEventUuid": "12490ac7-d7be-484e-8293-077e8761aec5",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485948648899,
+    "endTime": 1485948648899,
+    "shipMmsi": "244670996",
+    "startEventUuid": "918647c4-0fdf-4595-b692-926c878608c8",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485948948751,
+    "endTime": 1485948948751,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0b001213-99a2-42fe-8575-c2e6efd04215",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1485949188765,
+    "endTime": 1485949188765,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a991b596-bd9b-4048-8da5-7ba85f2ca819",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1485949364033,
+    "endTime": 1486025240884,
+    "shipMmsi": "244670996",
+    "startEventUuid": "306c8187-c220-43ba-beb8-b4ff0ad24aed",
+    "endEventUuid": "50ea9cce-9845-47fc-8580-bdfa3793d1a3",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1486012340937,
+    "endTime": 1486012340937,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a3c92d06-259e-4308-965a-3a03e7dd9061",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1486018400909,
+    "endTime": 1486018400909,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0dd04976-7ec2-4400-b5be-fa568ab9eda3",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1486023681052,
+    "endTime": 1486023681052,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7dffd823-9e3b-4872-b03c-33e78401e53e",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1486023740915,
+    "endTime": 1486023740915,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2c5f7056-c037-47c7-ab2d-deac50f66b5b",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486025300916,
+    "endTime": 1486025300916,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d561e840-331b-467a-b43d-3ba5e15b3e0c",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486025306209,
+    "endTime": 1486026086212,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2ce31880-fd24-4676-8d1b-d5172901514d",
+    "endEventUuid": "48739a42-95a2-4154-8bd9-5722e3b7233a",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486026080980,
+    "endTime": 1486026080980,
+    "shipMmsi": "244670996",
+    "startEventUuid": "78e02522-0594-49e3-af23-3548f15fcc98",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486026086021,
+    "endTime": 1486026930961,
+    "shipMmsi": "244670996",
+    "startEventUuid": "da05ff09-e81b-4bb6-9618-d47c9df1ebaf",
+    "endEventUuid": "9e20b47e-03de-4b63-bdf2-efeecf1ef27f",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486026541204,
+    "endTime": 1486029336209,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3ad799d8-ccc2-4545-bb25-b268e21c5def",
+    "endEventUuid": "0fa8ef38-0d4e-4692-acde-657b1836d12e",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486026980930,
+    "endTime": 1486026980930,
+    "shipMmsi": "244670996",
+    "startEventUuid": "86cddc13-2a1f-4a33-afbe-dea938f68417",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486029260926,
+    "endTime": 1486029260926,
+    "shipMmsi": "244670996",
+    "startEventUuid": "fed7ad7a-dae1-4a19-86df-d188b58833ca",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486029335887,
+    "endTime": 1486033385323,
+    "shipMmsi": "244670996",
+    "startEventUuid": "de9a684c-1d91-4227-883e-337bc9444d9d",
+    "endEventUuid": "f4066075-fd35-42f4-aacd-9e8d6be7cbc0",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486029567106,
+    "endTime": 1486033385319,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0bd550e1-5a72-4c11-8bd3-d79c2f3612ac",
+    "endEventUuid": "bf271066-8c23-4e0c-85b6-d42fdfbae0ee",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486030915383,
+    "endTime": 1486031045382,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ed4b659b-4167-4a3e-a2b8-c65bff0185cf",
+    "endEventUuid": "933c881b-49fc-43ae-af1b-8e689d5108a6",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486032310007,
+    "endTime": 1486032310007,
+    "shipMmsi": "244670996",
+    "startEventUuid": "6fa7b4df-b80c-4c5b-8bc3-573de397006c",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486032345391,
+    "endTime": 1486032670380,
+    "shipMmsi": "244670996",
+    "startEventUuid": "4310b343-501a-4821-9e74-988a5bf991df",
+    "endEventUuid": "ab5aa3b9-11d8-4c65-836e-d618a8028d3a",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486032610014,
+    "endTime": 1486032610014,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2daa862f-6ec5-470a-89e8-05c487c13c40",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1486032664020,
+    "endTime": 1486033443814,
+    "shipMmsi": "566278000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "50dd0fcf-7a51-4f69-8fc2-db48ee6f1669",
+    "endEventUuid": "4387b460-b4b2-406e-9c85-e031e5b57c58",
+    "title": "water WATERBOOT 15 is alongside MAERSK NEWBURY",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486033329959,
+    "endTime": 1486033329959,
+    "shipMmsi": "244670996",
+    "startEventUuid": "cc51152a-431c-41eb-bde9-eda325cd762c",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486033385386,
+    "endTime": 1486036505378,
+    "shipMmsi": "244670996",
+    "startEventUuid": "c7cd65ce-fe24-419a-be4d-5bfc9e7a593e",
+    "endEventUuid": "955142f6-74b2-4f37-b15c-ab4e6a075edb",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486036390018,
+    "endTime": 1486036390018,
+    "shipMmsi": "244670996",
+    "startEventUuid": "88aeaefd-6b92-499c-b5f6-378c8c77a91b",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486036571807,
+    "endTime": 1486037480307,
+    "shipMmsi": "244670996",
+    "startEventUuid": "268014c3-9652-4ae7-89c3-57f134aabbcf",
+    "endEventUuid": "042d9b10-e9d0-41c8-9aba-7997fff104ff",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486037415370,
+    "endTime": 1486038520363,
+    "shipMmsi": "244670996",
+    "startEventUuid": "5b85a46a-a478-4a1b-990b-070bab7aeb2a",
+    "endEventUuid": "dc29eed6-d9ba-4c9b-a2b5-9b16d6f65aaa",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486037469957,
+    "endTime": 1486037469957,
+    "shipMmsi": "244670996",
+    "startEventUuid": "22b8df73-ec65-4d63-8430-2e0796b5e3e7",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486037770082,
+    "endTime": 1486037770082,
+    "shipMmsi": "244670996",
+    "startEventUuid": "13068cb8-25b8-462a-86ce-4fe348eebfcd",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486038520317,
+    "endTime": 1486048660192,
+    "shipMmsi": "244670996",
+    "startEventUuid": "91f9e68b-da51-45ed-b033-d11b5cade829",
+    "endEventUuid": "a8e99bb2-b323-4bfa-87ab-b958a3bcfea2",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486048400382,
+    "endTime": 1486049050410,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f61d2e29-a7f9-4d76-8795-66a17f636e6d",
+    "endEventUuid": "4e5e0915-d904-4d75-a59a-5f191e59ee72",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486048569994,
+    "endTime": 1486048569994,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7df064bf-23fe-4675-a277-fdc8347ad588",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486048930049,
+    "endTime": 1486048930049,
+    "shipMmsi": "244670996",
+    "startEventUuid": "f39b284b-d389-4c60-9a3e-4fa68a208a57",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486049180641,
+    "endTime": 1486106705283,
+    "shipMmsi": "244670996",
+    "startEventUuid": "ecf95990-0351-48fa-bdd0-739de0c25276",
+    "endEventUuid": "bdaa105a-39dc-4139-9fa3-3c20f225725c",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1486072090038,
+    "endTime": 1486072090038,
+    "shipMmsi": "244670996",
+    "startEventUuid": "3b874f3f-2b63-4ef3-a22a-ea3ea6fa9f60",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1486106650017,
+    "endTime": 1486106650017,
+    "shipMmsi": "244670996",
+    "startEventUuid": "10a9e7c5-df06-4bba-925a-085dda6b2940",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486106705381,
+    "endTime": 1486111255368,
+    "shipMmsi": "244670996",
+    "startEventUuid": "818fe88f-7708-4c4d-bd61-dc2efb2c266a",
+    "endEventUuid": "d61ba992-6511-492b-9710-2e3a4a0c29ae",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486107669966,
+    "endTime": 1486107669966,
+    "shipMmsi": "244670996",
+    "startEventUuid": "bb6977b8-a27e-4300-a170-3b832369e595",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1486108690037,
+    "endTime": 1486108690037,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9d85f9db-99ba-46f8-ae8c-50baeb34d28c",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1486110970053,
+    "endTime": 1486110970053,
+    "shipMmsi": "244670996",
+    "startEventUuid": "2c4cbdb2-c2ba-4a0e-8c1d-5dcc02fb7ca7",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1486110988810,
+    "endTime": 1486114693519,
+    "shipMmsi": "247373700",
+    "otherMmsi": "244670996",
+    "startEventUuid": "d22ccf5d-aa1e-4ac6-b60a-1a4ba74b792f",
+    "endEventUuid": "275272fa-51bb-4157-af81-65c22ac42d7c",
+    "title": "water WATERBOOT 15 is alongside MARY A",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486111255609,
+    "endTime": 1486114700360,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a414bda4-edca-49ec-9599-de8bb53f4705",
+    "endEventUuid": "2c1f5a9b-b0b8-49c9-a96c-34ff75689168",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1486113910006,
+    "endTime": 1486113910006,
+    "shipMmsi": "244670996",
+    "startEventUuid": "64392449-83c1-4873-bb85-71a7854982d8",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "AISRECOVERED",
+    "startTime": 1486114390044,
+    "endTime": 1486114390044,
+    "shipMmsi": "244670996",
+    "startEventUuid": "eb592b04-42ee-4a8e-a207-39da113f35a8",
+    "title": "AIS Signal recovered for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486114690015,
+    "endTime": 1486114690015,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a26641a8-4032-46ec-8880-80a9126c1818",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486114700383,
+    "endTime": 1486116260364,
+    "shipMmsi": "244670996",
+    "startEventUuid": "0d5af42d-e54b-4a40-87eb-50306735e2fd",
+    "endEventUuid": "736af592-811d-46b7-bf4f-86ed7c30bd99",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486115049975,
+    "endTime": 1486115049975,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7358ebfb-a46a-4334-bd43-a3688ceba686",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486115890021,
+    "endTime": 1486115890021,
+    "shipMmsi": "244670996",
+    "startEventUuid": "87bbbc2f-e172-4ed9-81fb-bba7162b3df4",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "WATER",
+    "startTime": 1486115928839,
+    "endTime": 1486125483599,
+    "shipMmsi": "305633000",
+    "otherMmsi": "244670996",
+    "startEventUuid": "f47679e0-e9d8-4abd-885a-4d215557644c",
+    "endEventUuid": "944fff02-6bdc-4991-b3f7-d02a866b871f",
+    "title": "water WATERBOOT 15 is alongside NBP TRADER",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486116250018,
+    "endTime": 1486116250018,
+    "shipMmsi": "244670996",
+    "startEventUuid": "91f94c1d-af0d-4cf4-b43e-dc46b6846465",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486116260268,
+    "endTime": 1486125425400,
+    "shipMmsi": "244670996",
+    "startEventUuid": "b00a2b47-8043-45f5-a81f-42ab72e20e74",
+    "endEventUuid": "b2f014e0-18dc-4640-a57b-aaeb618af259",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOVEMENT",
+    "startTime": 1486125425387,
+    "endTime": 1486125945384,
+    "shipMmsi": "244670996",
+    "startEventUuid": "7afef420-fd21-477c-b852-91cfe78c383a",
+    "endEventUuid": "387c20d9-8778-4288-bd37-85caf2993e5b",
+    "title": "WATERBOOT 15 is moving",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486125430035,
+    "endTime": 1486125430035,
+    "shipMmsi": "244670996",
+    "startEventUuid": "d031d83e-5a2e-4bf3-99a2-41462ecbaa90",
+    "title": "WATERBOOT 15[244670996] is Slowing down",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "SPEEDCHANGED",
+    "startTime": 1486125610018,
+    "endTime": 1486125610018,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9315a67a-b04f-4e2f-a6f6-da6351ad5e80",
+    "title": "WATERBOOT 15[244670996] is Accelerating",
+    "status": "FINISHED"
+  },
+  {
+    "eventType": "MOORED",
+    "startTime": 1486125945405,
+    "shipMmsi": "244670996",
+    "startEventUuid": "9fa5e248-88ee-4107-a506-2f42e5fec53a",
+    "title": "WATERBOOT 15 is moored in Rotterdam",
+    "status": "STARTED"
+  },
+  {
+    "eventType": "AISLOST",
+    "startTime": 1486151110030,
+    "endTime": 1486151110030,
+    "shipMmsi": "244670996",
+    "startEventUuid": "a201f9bd-7f88-4468-97fb-61c9a67accfb",
+    "title": "AIS signal Lost for WATERBOOT 15 [244670996]",
+    "status": "FINISHED"
+  }
+]

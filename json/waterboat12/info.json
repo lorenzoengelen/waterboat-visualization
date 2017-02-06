@@ -1,0 +1,57 @@
+{
+  "mmsi": "244690002",
+  "eni": "2301446",
+  "category": "BARGE",
+  "location": {
+    "latitude": 51.89408,
+    "longitude": 4.45388,
+    "coordinates": [
+      4.45388,
+      51.89408
+    ],
+    "type": "Point"
+  },
+  "courseOverGround": 360,
+  "timeLastUpdate": 1486372644000,
+  "name": "WATERBOOT 12",
+  "shipType": "TANKER",
+  "status": "UNDER_WAY_USING_ENGINE",
+  "speedOverGround": 0,
+  "callSign": "PF2323",
+  "coms": 0,
+  "extras": {
+    "coms": 0
+  },
+  "positionAccuracy": "HIGH",
+  "trueHeading": 511,
+  "specialManeuverIndicator": "NOT_AVAILABLE",
+  "positionOfTransponder": {
+    "distanceToBow": 30,
+    "distanceToStern": 7,
+    "distanceToPort": 4,
+    "distanceToStarboard": 4
+  },
+  "eta": 1480554000000,
+  "maxDraught": 2.5,
+  "destination": "ROTTERDAM",
+  "userProfileAssociated": false,
+  "role": "WATER",
+  "locationStern": {
+    "latitude": 51.89401704757427,
+    "longitude": 4.45388,
+    "coordinates": [
+      4.45388,
+      51.89401704757427
+    ],
+    "type": "Point"
+  },
+  "locationBow": {
+    "latitude": 51.894349796110326,
+    "longitude": 4.45388,
+    "coordinates": [
+      4.45388,
+      51.894349796110326
+    ],
+    "type": "Point"
+  }
+}

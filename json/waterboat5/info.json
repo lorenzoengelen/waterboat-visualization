@@ -1,0 +1,55 @@
+{
+  "mmsi": "244690001",
+  "eni": "2310175",
+  "category": "BARGE",
+  "location": {
+    "latitude": 51.96146,
+    "longitude": 3.97526,
+    "coordinates": [
+      3.97526,
+      51.96146
+    ],
+    "type": "Point"
+  },
+  "courseOverGround": 0,
+  "timeLastUpdate": 1486372598000,
+  "name": "WATERBOOT5",
+  "shipType": "OTHER_TYPE",
+  "status": "UNDER_WAY_USING_ENGINE",
+  "speedOverGround": 0,
+  "callSign": "PH3613",
+  "coms": 0,
+  "extras": {
+    "coms": 0
+  },
+  "trueHeading": 511,
+  "positionOfTransponder": {
+    "distanceToBow": 21,
+    "distanceToStern": 11,
+    "distanceToPort": 3,
+    "distanceToStarboard": 4
+  },
+  "eta": 1512000000000,
+  "maxDraught": 2.6,
+  "destination": "ROTTERDAM",
+  "userProfileAssociated": false,
+  "role": "WATER",
+  "locationStern": {
+    "latitude": 51.96136107475932,
+    "longitude": 3.975267297394898,
+    "coordinates": [
+      3.975267297394898,
+      51.96136107475932
+    ],
+    "type": "Point"
+  },
+  "locationBow": {
+    "latitude": 51.96164885727701,
+    "longitude": 3.975267297441747,
+    "coordinates": [
+      3.975267297441747,
+      51.96164885727701
+    ],
+    "type": "Point"
+  }
+}
