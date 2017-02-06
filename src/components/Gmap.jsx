@@ -22,11 +22,11 @@ class Gmap extends Component {
     // });
     // const map = new maps.Map(node, mapConfig);
 
-    const google = window.google;
-    map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
+    // const google = window.google;
+    // map = new google.maps.Map(document.getElementById('map'), {
+    //       center: {lat: -34.397, lng: 150.644},
+    //       zoom: 8
+    //     });
   }
 
   render () {
