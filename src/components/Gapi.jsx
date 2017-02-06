@@ -1,7 +1,7 @@
 import React, { PropTypes as T } from 'react';
 import ReactDOM from 'react-dom';
 
-import cache from '../utils/cache.js';
+import cache from '../utils/cache.jsx';
 import GoogleApi from '../utils/api.jsx';
 
 const defaultMapConfig = {};
