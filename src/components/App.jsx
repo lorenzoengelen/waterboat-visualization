@@ -4,6 +4,12 @@ import Gmap from './Gmap.jsx';
 
 class App extends Component {
   render() {
+
+    const style = {
+      width: '100vw',
+      height: '50vh'
+    };
+
     return (
       <div className='app'>
 
@@ -21,7 +27,9 @@ class App extends Component {
           <div className='row'>
             <div className='col-xs-8'>
               <div className='row'>
-                <Gmap />
+                <div style={style}>
+                  <Gmap />
+                </div>
               </div>
               <div className='row'>
                 <h1>Timeline here</h1>
