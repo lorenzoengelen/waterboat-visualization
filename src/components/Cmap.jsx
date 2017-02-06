@@ -7,24 +7,25 @@ import Gmap from './Gmap.jsx';
 
 class Cmap extends Component {
   componentDidMount() {
-    
   }
 
   render() {
     const style = {
-      width: '100vw',
-      height: '50vh'
+      width: '100%',
+      height: '70vh'
     };
 
     if (!this.props.loaded) {
       return (
-        <div>The map is loading</div>
+        <div>
+          Loading map...
+        </div>
       );
     }
     
     return (
       <div style={style}>
-        <Gmap />
+        <Gmap google={this.props.google} />
       </div>
     );
   }
