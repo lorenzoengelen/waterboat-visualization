@@ -4,6 +4,17 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
+
+        <nav className="navbar navbar-default" style={{borderRadius: 0}}>
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <a className="navbar-brand" href="#">
+                Waterboat Visualization
+              </a> 
+            </div>
+          </div>
+        </nav>
+
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-xs-8'>
@@ -19,6 +30,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        
       </div>
     );
   }
