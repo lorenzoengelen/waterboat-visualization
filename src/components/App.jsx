@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Gmap from './Gmap.jsx';
+import Cmap from './Cmap.jsx';
 
 class App extends Component {
   render() {
@@ -28,7 +28,7 @@ class App extends Component {
             <div className='col-xs-8'>
               <div className='row'>
                 <div style={style}>
-                  <Gmap />
+                  <Cmap />
                 </div>
               </div>
               <div className='row'>
