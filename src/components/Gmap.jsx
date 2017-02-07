@@ -1,9 +1,17 @@
 import React, { Component, PropTypes as T } from 'react';
 import ReactDom from 'react-dom';
+import { camelize } from '../utils/camelize.jsx';
+
+const events = [
+  'click',
+  'dragend'
+];
 
 class Gmap extends Component {
   constructor(props) {
     super(props);
+
+    this.listeners = {};
 
     const {lat, lng} = this.props.initialCenter;
     this.state = {
@@ -16,7 +24,7 @@ class Gmap extends Component {
 
   componentDidMount() {
     console.log(this.props, this.state);
-    
+
     this.loadMap();
   }
 
@@ -35,14 +43,37 @@ class Gmap extends Component {
       const node = ReactDom.findDOMNode(mapRef);
 
       let {initialCenter, zoom} = this.props;
-      let {lat, lng} = initialCenter;
+      let {lat, lng} = this.state.currentLocation;
       const center = new maps.LatLng(lat, lng);
       const mapConfig = Object.assign({}, {
         center: center,
         zoom: zoom
       });
+
       this.map = new maps.Map(node, mapConfig);
+
+      events.forEach(e => {
+        this.map.addListener(e, this.handleEvent(e));
+      });
     }
+  }
+
+  handleEvent(event) {
+    let timeout;
+    const eventHandler = `on${camelize(event)}`;
+
+    return (e) => {
+      if (timeout) {
+        clearTimeout(timeout);
+        timeout = null;
+      }
+      timeout = setTimeout(() => {
+        if (this.props[eventHandler]) {
+          this.props[eventHandler](this.props, this.map, e);
+          console.log('hello');
+        }
+      }, 0);
+    };  
   }
 
   render() {
@@ -57,15 +88,19 @@ class Gmap extends Component {
 Gmap.propTypes = {
   google: T.object,
   zoom: T.number,
-  initialCenter: T.object
+  initialCenter: T.object,
+  onMove: T.func
 };
+
+events.forEach(e => Gmap.propTypes[camelize(e)] = T.func);
 
 Gmap.defaultProps = {
   zoom: 11,
   initialCenter: {
     lat: 51.935055,
     lng: 4.317697
-  }
+  },
+  onMove: () => {}
 };
 
 export default Gmap;
