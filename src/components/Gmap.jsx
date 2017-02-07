@@ -1,23 +1,6 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 
-const mapStyles = {
-  container: {
-    position: 'absolute',
-    width: '100%',
-    height: '500px'
-  },
-  map: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    bottom: 0,
-    top: 0,
-    // width: '100px',
-    // height: '100px'
-  }
-};
-
 class Gmap extends Component {
   componentDidMount() {
     this.loadMap();
@@ -37,16 +20,15 @@ class Gmap extends Component {
       const mapRef = this.refs.map;
       const node = ReactDom.findDOMNode(mapRef);
 
-      let zoom = 14;
-      let lat = 37.774929;
-      let lng = -122.419416;
+      let zoom = 11;
+      let lat = 51.935055;
+      let lng = 4.317697;
       const center = new maps.LatLng(lat, lng);
       const mapConfig = Object.assign({}, {
         center: center,
         zoom: zoom
       });
       this.map = new maps.Map(node, mapConfig);
-      // this.forceUpdate();
     }
   }
 

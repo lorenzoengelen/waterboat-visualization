@@ -12,7 +12,7 @@ class Cmap extends Component {
   render() {
     const style = {
       width: '100%',
-      height: '70vh'
+      height: '60vh'
     };
 
     if (!this.props.loaded) {
