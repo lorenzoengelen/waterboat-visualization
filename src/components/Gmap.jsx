@@ -1,8 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes as T } from 'react';
 import ReactDom from 'react-dom';
 
 class Gmap extends Component {
+  constructor(props) {
+    super(props);
+
+    const {lat, lng} = this.props.initialCenter;
+    this.state = {
+      currentLocation: {
+        lat: lat,
+        lng: lng
+      }
+    };
+  }
+
   componentDidMount() {
+    console.log(this.props, this.state);
+    
     this.loadMap();
   }
 
@@ -14,15 +28,14 @@ class Gmap extends Component {
 
   loadMap() {
     if (this.props && this.props.google) {
-      const google = this.props.google;
-      const maps = google.maps;
+      const {google} = this.props;
+      const {maps} = google;
 
       const mapRef = this.refs.map;
       const node = ReactDom.findDOMNode(mapRef);
 
-      let zoom = 11;
-      let lat = 51.935055;
-      let lng = 4.317697;
+      let {initialCenter, zoom} = this.props;
+      let {lat, lng} = initialCenter;
       const center = new maps.LatLng(lat, lng);
       const mapConfig = Object.assign({}, {
         center: center,
@@ -33,18 +46,25 @@ class Gmap extends Component {
   }
 
   render() {
-    const style = Object.assign({}, mapStyles.map, this.props.style, {
-      display: this.props.visible ? 'inherit' : 'none'
-    });
-
-    const containerStyles = Object.assign({},
-      mapStyles.container, this.props.containerStyle);
-
     return (
         <div style={{width: '100%', height: '100%'}} ref='map'>
           Loading map...
         </div>
     ); 
+  }
+};
+
+Gmap.propTypes = {
+  google: T.object,
+  zoom: T.number,
+  initialCenter: T.object
+};
+
+Gmap.defaultProps = {
+  zoom: 11,
+  initialCenter: {
+    lat: 51.935055,
+    lng: 4.317697
   }
 };
 
