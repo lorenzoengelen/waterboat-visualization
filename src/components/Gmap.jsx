@@ -1,8 +1,10 @@
 import React, { Component, PropTypes as T } from 'react';
 import ReactDom from 'react-dom';
+import d3 from 'd3';
 import { camelize } from '../utils/camelize.jsx';
 
 const events = [
+  'ready',
   'click',
   'dragend'
 ];
@@ -47,7 +49,8 @@ class Gmap extends Component {
       const center = new maps.LatLng(lat, lng);
       const mapConfig = Object.assign({}, {
         center: center,
-        zoom: zoom
+        zoom: zoom,
+        mapTypeId: 'terrain'
       });
 
       this.map = new maps.Map(node, mapConfig);
@@ -55,6 +58,8 @@ class Gmap extends Component {
       events.forEach(e => {
         this.map.addListener(e, this.handleEvent(e));
       });
+
+      maps.event.trigger(this.map, 'ready');
     }
   }
 
@@ -70,7 +75,6 @@ class Gmap extends Component {
       timeout = setTimeout(() => {
         if (this.props[eventHandler]) {
           this.props[eventHandler](this.props, this.map, e);
-          console.log('hello');
         }
       }, 0);
     };  
