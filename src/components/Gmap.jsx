@@ -2,7 +2,8 @@ import React, { Component, PropTypes as T, Children } from 'react';
 import ReactDom from 'react-dom';
 import d3 from 'd3';
 import { camelize } from '../utils/camelize.jsx';
-import stations from './stations.json';
+
+import Tag from './Tag.jsx';
 
 const events = [
   'ready',
@@ -99,10 +100,17 @@ class Gmap extends Component {
   }
 
   render() {
+    const pos = {lat: 51.895559, lng: 4.306024};
+
     return (
         <div style={{width: '100%', height: '100%'}} ref='map'>
           Loading map...
-          {this.renderChildren()}
+          <Tag 
+            position={pos} 
+            map={this.map} 
+            google={this.props.google} 
+            mapCenter={this.state.currentLocation} 
+          />
         </div>
     ); 
   }
