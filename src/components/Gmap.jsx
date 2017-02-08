@@ -45,7 +45,7 @@ class Gmap extends Component {
       const mapRef = this.refs.map;
       const node = ReactDom.findDOMNode(mapRef);
 
-      let {initialCenter, zoom, mapTypeId, mapTypeControl, streetViewControl} = this.props;
+      let {initialCenter, zoom, mapTypeId, mapTypeControl, streetViewControl, styles} = this.props;
       let {lat, lng} = this.state.currentLocation;
       const center = new maps.LatLng(lat, lng);
       const mapConfig = Object.assign({}, {
@@ -53,7 +53,8 @@ class Gmap extends Component {
         zoom: zoom,
         mapTypeId: mapTypeId,
         mapTypeControl: mapTypeControl,
-        streetViewControl: streetViewControl
+        streetViewControl: streetViewControl,
+        styles: styles
       });
 
       this.map = new maps.Map(node, mapConfig);
@@ -100,20 +101,96 @@ Gmap.propTypes = {
   initialCenter: T.object,
   mapTypeId: T.string,
   mapTypeControl: T.bool,
-  streetViewControl: T.bool
+  streetViewControl: T.bool,
+  styles: T.array
 };
 
 events.forEach(e => Gmap.propTypes[camelize(e)] = T.func);
 
 Gmap.defaultProps = {
-  zoom: 11, //8, //11
+  zoom: 11,
   initialCenter: {
-    lat: 51.935055, //37.76487, //51.935055
-    lng: 4.317697 //-122.41948 //4.317697
+    lat: 51.935055,
+    lng: 4.317697
   },
   mapTypeId: 'terrain',
   mapTypeControl: false,
-  streetViewControl: false
+  streetViewControl: false,
+  styles: [
+    {
+      'featureType': 'administrative',
+      'stylers': [
+        { 'visibility': 'on' }
+      ]
+    },
+    {
+      'featureType': 'landscape.man_made', // grey
+      'elementType': 'geometry',
+      'stylers': [
+        { 'color': '#EBE6E2' },
+        { 'lightness': 50 }
+      ]
+    },
+    {
+      'featureType': 'landscape.natural', // green
+      'elementType': 'geometry',
+      'stylers': [
+        { 'color': '#EBE6E2' },
+        { 'lightness': 90 }
+      ]
+    },
+    {
+      'featureType': 'poi',
+      'stylers': [
+        { 'visibility': 'off' }
+      ]
+    },
+    {
+      'featureType': 'road',
+      'elementType': 'labels',
+      'stylers': [
+        { 'visibility': 'off' }
+      ]
+    },
+    {
+      'featureType': 'road.highway',
+      'elementType': 'geometry',
+      'stylers': [
+        { 'visibility': 'on' },
+        { 'color': '#FCA461' },
+        { 'lightness': 60 }
+      ]
+    },
+    {
+      'featureType': 'road.arterial',
+      'elementType': 'geometry',
+      'stylers': [
+        { 'visibility': 'on' },
+        { 'color': '#FEFEFC' },
+        { 'lightness': 50 }
+      ]
+    },
+    {
+      'featureType': 'transit',
+      'stylers': [
+        { 'visibility': 'off' }
+      ]
+    },
+    {
+      'featureType': 'water',
+      'elementType': 'labels',
+      'stylers': [
+        { 'visibility': 'off' }
+      ]
+    },
+    {
+      'featureType': 'water',
+      'elementType': 'geometry',
+      'stylers': [
+        { 'color': '#76CFF1' }
+      ]
+    }
+  ]
 };
 
 export default Gmap;
