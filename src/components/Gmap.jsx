@@ -4,6 +4,7 @@ import d3 from 'd3';
 import { camelize } from '../utils/camelize.jsx';
 
 import Tag from './Tag.jsx';
+import Polylines from './Polylines.jsx';
 
 const events = [
   'ready',
@@ -110,6 +111,10 @@ class Gmap extends Component {
             map={this.map} 
             google={this.props.google} 
             mapCenter={this.state.currentLocation} 
+          />
+          <Polylines 
+            map={this.map} 
+            google={this.props.google} 
           />
         </div>
     ); 
