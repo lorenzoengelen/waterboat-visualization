@@ -18,7 +18,7 @@ class Tag extends Component {
       position: position
     };
 
-    this.tag = new google.maps.Marker(pref);
+    // this.tag = new google.maps.Marker(pref);
   }
 
   render() {
