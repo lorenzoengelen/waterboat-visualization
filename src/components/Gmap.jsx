@@ -184,7 +184,7 @@ Gmap.defaultProps = {
       'stylers': [
         { 'visibility': 'on' },
         { 'color': '#FCA461' },
-        { 'lightness': 60 }
+        { 'lightness': 80 }
       ]
     },
     {
@@ -213,7 +213,8 @@ Gmap.defaultProps = {
       'featureType': 'water',
       'elementType': 'geometry',
       'stylers': [
-        { 'color': '#76CFF1' }
+        { 'color': '#76CFF1' },
+        { 'lightness': 60 }
       ]
     }
   ]
