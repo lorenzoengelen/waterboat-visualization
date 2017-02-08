@@ -2,6 +2,7 @@ import React, { Component, PropTypes as T } from 'react';
 import ReactDom from 'react-dom';
 import d3 from 'd3';
 import { camelize } from '../utils/camelize.jsx';
+import stations from './stations.json';
 
 const events = [
   'ready',
@@ -44,13 +45,15 @@ class Gmap extends Component {
       const mapRef = this.refs.map;
       const node = ReactDom.findDOMNode(mapRef);
 
-      let {initialCenter, zoom} = this.props;
+      let {initialCenter, zoom, mapTypeId, mapTypeControl, streetViewControl} = this.props;
       let {lat, lng} = this.state.currentLocation;
       const center = new maps.LatLng(lat, lng);
       const mapConfig = Object.assign({}, {
         center: center,
         zoom: zoom,
-        mapTypeId: 'terrain'
+        mapTypeId: mapTypeId,
+        mapTypeControl: mapTypeControl,
+        streetViewControl: streetViewControl
       });
 
       this.map = new maps.Map(node, mapConfig);
@@ -60,6 +63,8 @@ class Gmap extends Component {
       });
 
       maps.event.trigger(this.map, 'ready');
+
+      console.log(this.map);
     }
   }
 
@@ -93,18 +98,22 @@ Gmap.propTypes = {
   google: T.object,
   zoom: T.number,
   initialCenter: T.object,
-  onMove: T.func
+  mapTypeId: T.string,
+  mapTypeControl: T.bool,
+  streetViewControl: T.bool
 };
 
 events.forEach(e => Gmap.propTypes[camelize(e)] = T.func);
 
 Gmap.defaultProps = {
-  zoom: 11,
+  zoom: 11, //8, //11
   initialCenter: {
-    lat: 51.935055,
-    lng: 4.317697
+    lat: 51.935055, //37.76487, //51.935055
+    lng: 4.317697 //-122.41948 //4.317697
   },
-  onMove: () => {}
+  mapTypeId: 'terrain',
+  mapTypeControl: false,
+  streetViewControl: false
 };
 
 export default Gmap;
