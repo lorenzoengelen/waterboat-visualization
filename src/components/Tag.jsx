@@ -3,7 +3,6 @@ import React, { Component, PropTypes as T } from 'react';
 class Tag extends Component {
   componentDidUpdate(prevProps) {
     if ((this.props.map !== prevProps.map) || (this.props.position !== prevProps.position)) {
-      // the relevant props have changed
       this.renderTag();
     }
   }
