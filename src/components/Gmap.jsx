@@ -146,7 +146,7 @@ Gmap.defaultProps = {
     {
       'featureType': 'administrative',
       'stylers': [
-        { 'visibility': 'on' }
+        { 'visibility': 'off' }
       ]
     },
     {
@@ -213,7 +213,7 @@ Gmap.defaultProps = {
       'featureType': 'water',
       'elementType': 'geometry',
       'stylers': [
-        { 'color': '#76CFF1' },
+        { 'color': '#000000' },
         { 'lightness': 60 }
       ]
     }

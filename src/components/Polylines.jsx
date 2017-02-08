@@ -20,9 +20,9 @@ class Polylines extends Component {
     // 1
     let coordinates1 = [];
     data1.forEach(log => {
-      if (log.timeLastUpdate > 1483398000000) {
-        return;
-      }
+      // if (log.timeLastUpdate > 1483398000000) {
+      //   return;
+      // }
       coordinates1.push({
         lat: log.location.latitude,
         lng: log.location.longitude
@@ -45,9 +45,9 @@ class Polylines extends Component {
     // 1
     let coordinates2 = [];
     data10.forEach(log => {
-      if (log.timeLastUpdate > 1483398000000) {
-        return;
-      }
+      // if (log.timeLastUpdate > 1483398000000) {
+      //   return;
+      // }
       coordinates2.push({
         lat: log.location.latitude,
         lng: log.location.longitude
@@ -68,9 +68,9 @@ class Polylines extends Component {
     // 3
     let coordinates3 = [];
     data12.forEach(log => {
-      if (log.timeLastUpdate > 1483398000000) {
-        return;
-      }
+      // if (log.timeLastUpdate > 1483398000000) {
+      //   return;
+      // }
       coordinates3.push({
         lat: log.location.latitude,
         lng: log.location.longitude
@@ -91,9 +91,9 @@ class Polylines extends Component {
     // 4
     let coordinates4 = [];
     data15.forEach(log => {
-      if (log.timeLastUpdate > 1483398000000) {
-        return;
-      }
+      // if (log.timeLastUpdate > 1483398000000) {
+      //   return;
+      // }
       coordinates4.push({
         lat: log.location.latitude,
         lng: log.location.longitude
@@ -114,9 +114,9 @@ class Polylines extends Component {
     // 5
     let coordinates5 = [];
     data2.forEach(log => {
-      if (log.timeLastUpdate > 1483398000000) {
-        return;
-      }
+      // if (log.timeLastUpdate > 1483398000000) {
+      //   return;
+      // }
       coordinates5.push({
         lat: log.location.latitude,
         lng: log.location.longitude
@@ -137,9 +137,9 @@ class Polylines extends Component {
     // 6
     let coordinates6 = [];
     data5.forEach(log => {
-      if (log.timeLastUpdate > 1483398000000) {
-        return;
-      }
+      // if (log.timeLastUpdate > 1483398000000) {
+      //   return;
+      // }
       coordinates6.push({
         lat: log.location.latitude,
         lng: log.location.longitude
@@ -149,7 +149,7 @@ class Polylines extends Component {
     this.line6 = new google.maps.Polyline({
       path: coordinates6,
       geodesic: true,
-      strokeColor: '#000000',
+      strokeColor: '#00FFFF',
       strokeOpacity: 1,
       strokeWeight: 1,
     });
