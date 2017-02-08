@@ -1,4 +1,4 @@
-import React, { Component, PropTypes as T } from 'react';
+import React, { Component, PropTypes as T, Children } from 'react';
 import ReactDom from 'react-dom';
 import d3 from 'd3';
 import { camelize } from '../utils/camelize.jsx';
@@ -26,8 +26,6 @@ class Gmap extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props, this.state);
-
     this.loadMap();
   }
 
@@ -64,8 +62,7 @@ class Gmap extends Component {
       });
 
       maps.event.trigger(this.map, 'ready');
-
-      console.log(this.map);
+      this.forceUpdate();
     }
   }
 
@@ -86,10 +83,26 @@ class Gmap extends Component {
     };  
   }
 
+  renderChildren() {
+    console.log(this.props.children);
+    const {children} = this.props;
+
+    if (!children) { return; }
+
+    return Children.map(children, c => {
+      return React.cloneElement(c, {
+        map: this.map,
+        google: this.props.google,
+        mapCenter: this.state.currentLocation
+      });
+    });
+  }
+
   render() {
     return (
         <div style={{width: '100%', height: '100%'}} ref='map'>
           Loading map...
+          {this.renderChildren()}
         </div>
     ); 
   }
@@ -180,7 +193,7 @@ Gmap.defaultProps = {
       'featureType': 'water',
       'elementType': 'labels',
       'stylers': [
-        { 'visibility': 'off' }
+        { 'visibility': 'on' }
       ]
     },
     {
