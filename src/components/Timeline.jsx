@@ -1,7 +1,8 @@
 import React, { Component, PropTypes as T } from 'react';
+import ReactDom from 'react-dom';
 import * as d3 from 'd3';
 
-import tl from './d3Timeline.jsx';
+import TL from './d3Timeline.jsx';
 
 class Timeline extends Component {
   constructor(props) {
@@ -9,15 +10,27 @@ class Timeline extends Component {
   }
 
   componentDidMount() {
-    console.log(tl.prototype);
+    this.el = ReactDom.findDOMNode(this);
+    this.tl = new TL();
+    this.tl.create(this.el, {
+      width: '100%',
+      height: '40vh'
+    }, this.getChartState());
   }
 
   componentDidUpdate() {
-
+    this.tl.update(this.el, this.getChartState());
   }
 
   componentWillUnmount() {
+    this.tl.destroy(this.el);
+  }
 
+  getChartState() {
+    return {
+      data: this.props.data,
+      domain: this.props.domain
+    };
   }
 
   render() {

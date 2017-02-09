@@ -1,9 +1,6 @@
 import * as d3 from 'd3';
 
-class TL {
-  constructor() {
-  }
-};
+class TL {};
 
 TL.prototype.create = (el, props, state) => {
   let svg = d3.select(el).append('svg')
@@ -14,13 +11,13 @@ TL.prototype.create = (el, props, state) => {
   svg.append('g')
     .attr('class', 'd3-points');
 
-  this.update(el, state);
+  TL.prototype.update(el, state);
 };
 
 TL.prototype.update = (el, state) => {
   // re-compute scales, and render new data
-  let scales = this._scales(el, state.domain);
-  this._drawpoints(el, scales, state.data);
+  let scales = TL.prototype._scales(el, state.domain);
+  TL.prototype._drawpoints(el, scales, state.data);
 };
 
 TL.prototype._scales = (el, domain) => {
@@ -29,13 +26,18 @@ TL.prototype._scales = (el, domain) => {
   let width = el.offsetWidth;
   let height = el.offsetHeight;
 
-  let x = d3.scale.linear()
+  // console.log('D3', d3);
+  let x = d3.scaleLinear()
     .range([0, width])
     .domain(domain.x);
 
-  let y = d3.scale.linear()
+  let y = d3.scaleLinear()
     .range([0, height])
     .domain(domain.y);
+
+  let z = d3.scaleLinear()
+      .range([5, 20])
+      .domain([1, 10]);
 
   return { x: x, y: y, z: z };
 };
@@ -54,8 +56,8 @@ TL.prototype._drawpoints = (el, scales, data) => {
 
   // enter & update
   point.attr('cx', (d) => { return scales.x(d.x); })
-    .point.attr('cy', (d) => { return scales.y(d.y); })
-    .point.attr('r', (d) => { return scales.z(d.z); });
+    .attr('cy', (d) => { return scales.y(d.y); })
+    .attr('r', (d) => { return scales.z(d.z); });
 
   // exit
   point.exit()
