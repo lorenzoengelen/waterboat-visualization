@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Cmap from './Cmap.jsx';
+import Timeline from './Timeline.jsx';
 
 class App extends Component {
   render() {
@@ -31,7 +32,7 @@ class App extends Component {
                 </div>
               </div>
               <div className='row'>
-                <h1>Timeline here</h1>
+                <Timeline />
               </div>
             </div>
             <div className='col-xs-4'>
