@@ -33,22 +33,25 @@ class Polylines extends Component {
       for (var j = i; j < i + 2 && j < n; j++) {
         coordinates[j - i] = coordinates1[j];
       }
-      var polyline = new google.maps.Polyline({
+      var props = {
         path: coordinates,
         geodesic: true,
         strokeColor: '#FF0000',
         strokeOpacity: 1,
         strokeWeight: 1,
-        zIndex: 1,
-        icons: [{
+        zIndex: 1
+      };
+      if (i % 10 === 0) {
+        props.icons = [{
           icon: {
             path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
-            strokeColor: '#800000',
-            scale: 0.6
+            // strokeColor: '#800000',
+            // scale: 0.6
           },
           offset: '100%'
-        }]
-      });
+        }];
+      }
+      var polyline = new google.maps.Polyline(props);
       polyline.setMap(map);
       // polylines.push(polyline);
     }
