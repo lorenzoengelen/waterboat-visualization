@@ -24,11 +24,42 @@ TL.prototype.update = (el, state) => {
 };
 
 TL.prototype._scales = (el, domain) => {
+  if (!domain) { return null; }
 
+  let width = el.offsetWidth;
+  let height = el.offsetHeight;
+
+  let x = d3.scale.linear()
+    .range([0, width])
+    .domain(domain.x);
+
+  let y = d3.scale.linear()
+    .range([0, height])
+    .domain(domain.y);
+
+  return { x: x, y: y, z: z };
 };
 
 TL.prototype._drawpoints = (el, scales, data) => {
+  let g = d3.select(el).selectAll('.d3-points');
 
+  let point = g.selectAll('.d3-point')
+    .data(data, (d) => {
+      return d.id;
+    });
+
+  // enter
+  point.enter().append('circle')
+    .attr('class', 'd3-point');
+
+  // enter & update
+  point.attr('cx', (d) => { return scales.x(d.x); })
+    .point.attr('cy', (d) => { return scales.y(d.y); })
+    .point.attr('r', (d) => { return scales.z(d.z); });
+
+  // exit
+  point.exit()
+    .remove();
 };
 
 TL.prototype.destroy = (el) => {
