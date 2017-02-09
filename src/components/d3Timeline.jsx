@@ -1,8 +1,11 @@
 import * as d3 from 'd3';
 
-const tl = {};
+class TL {
+  constructor() {
+  }
+};
 
-tl.create = (el, props, state) => {
+TL.prototype.create = (el, props, state) => {
   let svg = d3.select(el).append('svg')
     .attr('class', 'd3')
     .attr('width', props.width)
@@ -14,22 +17,22 @@ tl.create = (el, props, state) => {
   this.update(el, state);
 };
 
-tl.update = (el, state) => {
+TL.prototype.update = (el, state) => {
   // re-compute scales, and render new data
   let scales = this._scales(el, state.domain);
   this._drawpoints(el, scales, state.data);
 };
 
-tl._scales = (el, domain) => {
+TL.prototype._scales = (el, domain) => {
 
 };
 
-tl._drawpoints = (el, scales, data) => {
+TL.prototype._drawpoints = (el, scales, data) => {
 
 };
 
-tl.destroy = (el) => {
-
+TL.prototype.destroy = (el) => {
+  // necessary cleaning
 };
 
-export default tl;
+export default TL;

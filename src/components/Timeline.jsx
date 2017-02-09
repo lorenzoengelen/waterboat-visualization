@@ -9,7 +9,7 @@ class Timeline extends Component {
   }
 
   componentDidMount() {
-    console.log('props', tl);
+    console.log(tl.prototype);
   }
 
   componentDidUpdate() {
