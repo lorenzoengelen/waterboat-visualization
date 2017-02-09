@@ -28,21 +28,31 @@ class Polylines extends Component {
         lng: log.location.longitude
       });
     });
-
-    this.line1 = new google.maps.Polyline({
-      path: coordinates1,
-      geodesic: true,
-      strokeColor: '#FF0000',
-      strokeOpacity: 1,
-      strokeWeight: 1,
-      zIndex: 1,
-      icons: [{
-          icon: {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW},
+    for (var i = 0, n = coordinates1.length; i < n; i++) {
+      let coordinates = new Array();
+      for (var j = i; j < i + 2 && j < n; j++) {
+        coordinates[j - i] = coordinates1[j];
+      }
+      var polyline = new google.maps.Polyline({
+        path: coordinates,
+        geodesic: true,
+        strokeColor: '#FF0000',
+        strokeOpacity: 1,
+        strokeWeight: 1,
+        zIndex: 1,
+        icons: [{
+          icon: {
+            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+            strokeColor: '#800000',
+            scale: 0.6
+          },
           offset: '100%'
-      }]
-    });
+        }]
+      });
+      polyline.setMap(map);
+      // polylines.push(polyline);
+    }
 
-    this.line1.setMap(map);
     // 1
 
     // 2
