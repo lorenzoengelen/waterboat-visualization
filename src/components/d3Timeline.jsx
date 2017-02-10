@@ -4,7 +4,7 @@ class TL {};
 
 TL.prototype.create = (el, props, state) => {
   let svg = d3.select(el).append('svg')
-    .attr('class', 'd3')
+    .attr('class', 'timeline')
     .attr('width', props.width)
     .attr('height', props.height);
 
@@ -50,14 +50,20 @@ TL.prototype._drawpoints = (el, scales, data) => {
       return d.id;
     });
 
-  // enter
-  point.enter().append('circle')
-    .attr('class', 'd3-point');
+    console.log(scales);
 
   // enter & update
-  point.attr('cx', (d) => { return scales.x(d.x); })
-    .attr('cy', (d) => { return scales.y(d.y); })
-    .attr('r', (d) => { return scales.z(d.z); });
+  point.enter().append('circle')
+    .attr('class', 'd3-point')
+    .attr('cx', (d) => {
+      return scales.x(d.x);
+    })
+    .attr('cy', (d) => {
+      return scales.y(d.y);
+    })
+    .attr('r', (d) => {
+      return scales.z(d.z);
+    });
 
   // exit
   point.exit()
