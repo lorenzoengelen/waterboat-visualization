@@ -17,7 +17,7 @@ class Cmap extends Component {
 
     if (!this.props.loaded) {
       return (
-        <div>
+        <div style={style}>
           Loading map...
         </div>
       );
