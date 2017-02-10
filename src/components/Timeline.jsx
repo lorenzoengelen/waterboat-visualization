@@ -35,7 +35,7 @@ class Timeline extends Component {
 
   render() {
     return (
-      <div className='timeline'></div>
+      <div className='timeline-container'></div>
     );
   }
 };
