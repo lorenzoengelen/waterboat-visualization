@@ -7,7 +7,8 @@
     "clean": "rimraf dist",
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server",
-    "start": "NODE_ENV=production nodemon server.js"
+    "start": "NODE_ENV=production nodemon server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
   },
   "author": "",
   "license": "ISC",
