@@ -1,10 +1,47 @@
 .timeline {
   font: 10px sans-serif;
   border: 1px solid #555;
+  width: 100%;
+  height: 40vh;
 }
 
 .d3-point {
   fill: #2B8FF3;
   stroke: #1D5FA2;
   stroke-width: 2;
+}
+
+.chart {
+  shape-rendering: crispEdges;
+}
+
+.mini text {
+  font: 9px sans-serif; 
+}
+
+.main text {
+  font: 12px sans-serif;  
+}
+
+.miniItem0 {
+  fill: darksalmon;
+  stroke-width: 6;  
+}
+
+.miniItem1 {
+  fill: darkolivegreen;
+  fill-opacity: .7;
+  stroke-width: 6;  
+}
+
+.miniItem2 {
+  fill: slategray;
+  fill-opacity: .7;
+  stroke-width: 6;  
+}
+
+.brush .extent {
+  stroke: gray;
+  fill: dodgerblue;
+  fill-opacity: .365;
 }

@@ -1,12 +1,25 @@
 import * as d3 from 'd3';
 
-class TL {};
+class TL {
+  constuctor() {
+    this.waterboats = [1, 2, 5, 10, 12, 15];
+    this.m = [20, 15, 15, 120];
+    this.w = 'calc(100%)';
+    this.h = 'calc(40vh)';
+  }
+};
 
 TL.prototype.create = (el, props, state) => {
   let svg = d3.select(el).append('svg')
-    .attr('class', 'timeline')
-    .attr('width', props.width)
-    .attr('height', props.height);
+    .attr('class', 'timeline');
+    // .attr('width', props.width)
+    // .attr('height', props.height);
+
+  // svg.append('defs').append('clipPath')
+  //   .attr('id', 'clip')
+  //   .append('rect')
+  //   .attr('width', this.w)
+  //   .attr('height', )
 
   svg.append('g')
     .attr('class', 'd3-points');
@@ -49,8 +62,6 @@ TL.prototype._drawpoints = (el, scales, data) => {
     .data(data, (d) => {
       return d.id;
     });
-
-    console.log(scales);
 
   // enter & update
   point.enter().append('circle')
