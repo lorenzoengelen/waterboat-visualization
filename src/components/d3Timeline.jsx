@@ -43,6 +43,7 @@ class TL {
       .x(x)
       .on('zoom', zoomed);
 
+    console.log('hello');
     let svg = d3.select(element).append('svg')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom)
@@ -122,7 +123,7 @@ class TL {
       .attr('class', 'item')
       .attr('transform', (d, i) => `translate(0, ${groupHeight * i})`)
       .selectAll('.dot')
-      .data(d => d.data.filter(_ => _.type === TimelineChart.TYPE.INTERVAL))
+      .data(d => d.data.filter(_ => _.type === TL.TYPE.INTERVAL))
       .enter();
 
     let intervalBarHeight = 0.8 * groupHeight;
@@ -150,16 +151,148 @@ class TL {
       .attr('transform', (d, i) => `translate(0, ${groupHeight * i})`)
       .selectAll('.dot')
       .data(d => {
-        return d.data.filter(_ => _.type === TimelineChart.TYPE.POINT);
+        return d.data.filter(_ => _.type === TL.TYPE.POINT);
       })
       .enter();
 
     let dots = groupDotItems.append('circle')
       .attr('class', withCustom('dot'))
       .attr('cx', d => x(d.at))
-      .// DOTS
+      .attr('cy', groupHeight / 2)
+      .attr('r', 5);
+
+    if (options.tip) {
+      if (d3.tip) {
+        let tip = d3.tip()
+          .attr('class', 'd3-tip')
+          .html(options.tip);
+
+        svg.call(tip);
+        dots.on('mouseover', tip.show)
+          .on('mouseout', tip.hide);
+
+      } else {
+        console.error('d3.tip not included as dependency (https://github.com/Caged/d3-tip)');
+      }
+    }
+
+    if (options.enableLiveTimer) {
+      setInterval(updateNowMarker, options.timerTickInterval);
+    }
+
+    let updateNowMarker = () => {
+      let nowX = x(new Date());
+      self.now.attr('x1', nowX)
+        .attr('x2', nowX);
+    };
+
+    let withCustom = (defaultClass) => {
+      return d => d.customClass ? [d.customClass, defaultClass].join(' ') : defaultClass;
+    };
+
+    let zoomed = () => {
+      if (self.onVizChangeFn && d3.event) {
+        self.onVizChangeFn.call(self, {
+          scale: d3.event.scale,
+          translate: d3.event.translate,
+          domain: x.domain()
+        });
+      }
+
+      if (options.enableLiveTimer) {
+        updateNowMarker();
+      }
+
+      svg.select('.x.axis').call(xAxis);
+
+      svg.selectAll('circle.dot')
+        .attr('cx', d => x(d.at));
+      svg.selectAll('rect.interval')
+        .attr('cx', d => x(d.from))
+        .attr('width', d => Math.max(options.intervalMinWidth, x(d.to) - x(d.from)));
+
+      svg.selectAll('.interval-text')
+        .attr('x', d => {
+          let positionData = getTextPositionData.call(this, d);
+          if ((positionData.upToPosition - groupWidth - 10) < positionData.textWidth) {
+            return positionData.upToPosition;
+          } else if (positionData.xPosition < groupWidth && positionData.upToPosition > groupWidth) {
+            return groupWidth;
+          }
+          return positionData.xPosition;
+        })
+        .attr('text-anchor', d => {
+          let positionData = getTextPositionData.call(this, d);
+          if ((positionData.upToPosition - groupWidth - 10) < positionData.textWidth) {
+            return 'end';
+          }
+          return 'start';
+        })
+        .attr('dx', d => {
+          let positionData = getTextPositionData.call(this, d);
+          if ((positionData.upToPosition - groupWidth - 10) < positionData.textWidth) {
+            return '-0.5em';
+          }
+          return '0.5em';
+        })
+        .text(d => {
+          let positionData = getTextPositionData.call(this, d);
+          let percent = (positionData.width - options.textTruncateThreshold) / positionData.textWidth;
+          if (percent < 1) {
+            if (positionData.width > options.textTruncateThreshold) {
+              return d.label.substr(0, Math.floor(d.label.length * percent)) + '...';
+            } else {
+              return '';
+            }
+          }
+          return d.label;
+        });
+
+      let getTextPositionData = (d) => {
+        this.textSizeInPx = this.textSizeInPx || this.getComputedTextLength();
+        let from = x(d.from);
+        let to = x(d.to);
+        return {
+          xPosition: from,
+          upToPosition: to,
+          width: to - from,
+          textWidth: this.textSizeInPx
+        };
+      };
+
+    };
 
   }
+
+  extendOptions(ext = {}) {
+    let defaultOptions = {
+      intervalMinWidth: 8,
+      tip: undefined,
+      textTruncateThreshold: 30,
+      enableLiveTimer: false,
+      timerTickInterval: 1000
+    };
+    Object.keys(ext).map(k => defaultOptions[k] = ext[k]);
+    return defaultOptions;
+  }
+
+  getPointMinDt(p) {
+    return p.type === TL.TYPE.POINT ? p.at : p.from;
+  }
+
+  getPointMaxDt(p) {
+    return p.type === TL.TYPE.POINT ? p.at : p.to;
+  }
+  
+  onVizChange(fn) {
+    this.onVizChangeFn = fn;
+    return this;
+  }
+};
+
+TL.TYPE = {
+  POINT: Symbol(),
+  INTERVAL: Symbol()
 };
 
 // TL.prototype.create = (el, props, state) => {

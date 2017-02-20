@@ -11,15 +11,60 @@ class Timeline extends Component {
 
   componentDidMount() {
     this.el = ReactDom.findDOMNode(this);
-    this.tl = new TL();
+    // this.tl = new TL();
     // this.tl.create(this.el, {
     //   width: '100%',
     //   height: '40vh'
     // }, this.getChartState());
+
+    this.data = [{
+      label: 'Name',
+      data: [{
+        type: TL.TYPE.POINT,
+        at: new Date([2015, 1, 11])
+      }, 
+      {
+        type: TL.TYPE.POINT,
+        at: new Date([2015, 1, 15])
+      },
+      {
+        type: TL.TYPE.POINT,
+        at: new Date([2015, 3, 10])
+      },
+      {
+        label: 'I\'m a label',
+        type: TL.TYPE.INTERVAL,
+        from: new Date([2015, 2, 1]),
+        to: new Date([2015, 3, 1])
+      },
+      {
+        type: TL.TYPE.POINT,
+        at: new Date([2015, 6, 1])
+      },
+      {
+        type: TL.TYPE.POINT,
+        at: new Date([2015, 7, 1]),
+        customClass: 'custom-class'
+      }]
+    }];
+
+
+
+    const timeline = new TL(this.el, this.data, {
+      // tip: function(d) {
+      //   return d.at || `${d.from}<br>${d.to}`;
+      // }
+    });
+
+    console.log(timeline);
   }
 
   componentDidUpdate() {
-    // this.tl.update(this.el, this.getChartState());
+    const timeline = new TL(this.el, this.data, {
+          tip: function(d) {
+            return d.at || `${d.from}<br>${d.to}`;
+          }
+        });
   }
 
   componentWillUnmount() {
