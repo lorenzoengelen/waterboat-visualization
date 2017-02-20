@@ -12,18 +12,18 @@ class Timeline extends Component {
   componentDidMount() {
     this.el = ReactDom.findDOMNode(this);
     this.tl = new TL();
-    this.tl.create(this.el, {
-      width: '100%',
-      height: '40vh'
-    }, this.getChartState());
+    // this.tl.create(this.el, {
+    //   width: '100%',
+    //   height: '40vh'
+    // }, this.getChartState());
   }
 
   componentDidUpdate() {
-    this.tl.update(this.el, this.getChartState());
+    // this.tl.update(this.el, this.getChartState());
   }
 
   componentWillUnmount() {
-    this.tl.destroy(this.el);
+    // this.tl.destroy(this.el);
   }
 
   getChartState() {
