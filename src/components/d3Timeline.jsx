@@ -43,7 +43,6 @@ class TL {
       .x(x)
       .on('zoom', zoomed);
 
-    console.log('hello');
     let svg = d3.select(element).append('svg')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom)
@@ -172,6 +171,7 @@ class TL {
           .on('mouseout', tip.hide);
 
       } else {
+        // include d3.tip
         console.error('d3.tip not included as dependency (https://github.com/Caged/d3-tip)');
       }
     }

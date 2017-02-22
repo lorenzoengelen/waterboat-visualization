@@ -50,21 +50,22 @@ class Timeline extends Component {
 
 
 
-    const timeline = new TL(this.el, this.data, {
+    this.timeline = new TL(this.el, this.data, {
       // tip: function(d) {
       //   return d.at || `${d.from}<br>${d.to}`;
       // }
     });
 
-    console.log(timeline);
+    console.log(this.timeline);
   }
 
   componentDidUpdate() {
-    const timeline = new TL(this.el, this.data, {
-          tip: function(d) {
-            return d.at || `${d.from}<br>${d.to}`;
-          }
-        });
+    this.timeline = new TL(this.el, this.data, {
+          // tip: function(d) {
+          //   return d.at || `${d.from}<br>${d.to}`;
+          // }
+    });
+    // console.log(this.timeline);
   }
 
   componentWillUnmount() {
