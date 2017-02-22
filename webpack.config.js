@@ -10,7 +10,8 @@ const VENDOR_LIBS = [
   'jquery',
   'bootstrap',
   'd3-timeline-chart',
-  'vis'
+  'vis',
+  'moment'
 ];
 
 module.exports = {
