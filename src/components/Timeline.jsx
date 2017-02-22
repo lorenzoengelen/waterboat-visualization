@@ -2,7 +2,8 @@ import React, { Component, PropTypes as T } from 'react';
 import ReactDom from 'react-dom';
 import * as d3 from 'd3';
 
-import TL from './d3Timeline.jsx';
+// import TL from './d3Timeline.jsx';
+import TimelineChart from 'd3-timeline-chart';
 
 class Timeline extends Component {
   constructor(props) {
@@ -20,29 +21,29 @@ class Timeline extends Component {
     this.data = [{
       label: 'Name',
       data: [{
-        type: TL.TYPE.POINT,
+        type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 1, 11])
       }, 
       {
-        type: TL.TYPE.POINT,
+        type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 1, 15])
       },
       {
-        type: TL.TYPE.POINT,
+        type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 3, 10])
       },
       {
         label: 'I\'m a label',
-        type: TL.TYPE.INTERVAL,
+        type: TimelineChart.TYPE.INTERVAL,
         from: new Date([2015, 2, 1]),
         to: new Date([2015, 3, 1])
       },
       {
-        type: TL.TYPE.POINT,
+        type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 6, 1])
       },
       {
-        type: TL.TYPE.POINT,
+        type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 7, 1]),
         customClass: 'custom-class'
       }]
@@ -50,7 +51,7 @@ class Timeline extends Component {
 
 
 
-    this.timeline = new TL(this.el, this.data, {
+    this.timeline = new TimelineChart(this.el, this.data, {
       // tip: function(d) {
       //   return d.at || `${d.from}<br>${d.to}`;
       // }
