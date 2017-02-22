@@ -8,7 +8,8 @@ const VENDOR_LIBS = [
   'd3',
   'react-dom',
   'jquery',
-  'bootstrap'
+  'bootstrap',
+  'd3-timeline-chart'
 ];
 
 module.exports = {
