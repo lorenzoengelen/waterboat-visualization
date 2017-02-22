@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import Vis from 'vis/dist/vis.min.css';
 import styles from './styles/style.css';
 
 import App from './components/App.jsx';
