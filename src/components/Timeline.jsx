@@ -16,6 +16,7 @@ class Timeline extends Component {
     this.el = ReactDom.findDOMNode(this);
     
     var now = moment().minutes(0).seconds(0).milliseconds(0);
+    console.log('now', now);
     var itemCount = 60;
 
     // create a data set with groups
@@ -24,48 +25,104 @@ class Timeline extends Component {
     groups.add([
       {
         id: 1,
-        content: "Lee",
-        nestedGroups: [11,12,13]
+        content: 'Waterboot 1',
+        nestedGroups: [11,12],
+        showNested: false,
+        className: 'waterboot-1'
       },
       {
         id: 2,
-        content: "invisible group",
-        visible: false
+        content: 'Waterboot 2',
+        nestedGroups: [21, 22],
+        showNested: false,
+        className: 'waterboot-2'
+        // visible: false
       },
       {
         id: 3,
-        content: "John",
-        nestedGroups: [14],
-        showNested: false
+        content: 'Waterboot 5',
+        nestedGroups: [31, 32],
+        showNested: false,
+        className: 'waterboot-5'
       },
       {
         id: 4,
-        content: "Alson"
+        content: 'Waterboot 10',
+        nestedGroups: [41, 42],
+        showNested: false,
+        className: 'waterboot-10'
       },
+      {
+        id: 5,
+        content: 'Waterboot 12',
+        nestedGroups: [51, 52],
+        showNested: false,
+        className: 'waterboot-12'
+      },
+      {
+        id: 6,
+        content: 'Waterboot 15',
+        nestedGroups: [61, 62],
+        showNested: false,
+        className: 'waterboot-15'
+      }
     ]);
 
     groups.add([
       {
         id: 11,
-        content: "cook",
+        content: 'bootje 11',
       },
       {
         id: 12,
-        content: "shop",
+        content: 'bootje 12',
       },
       {
-        id: 13,
-        content: "clean house",
+        id: 21,
+        content: 'bootje 21'
       },
       {
-        id: 14,
-        content: "wash dishes",
+        id: 22,
+        content: 'bootje 22'
+      },
+      {
+        id: 31,
+        content: 'bootje 21'
+      },
+      {
+        id: 32,
+        content: 'bootje 22'
+      },
+      {
+        id: 41,
+        content: 'bootje 21'
+      },
+      {
+        id: 42,
+        content: 'bootje 22'
+      },
+      {
+        id: 51,
+        content: 'bootje 21'
+      },
+      {
+        id: 52,
+        content: 'bootje 22'
+      },
+      {
+        id: 61,
+        content: 'bootje 21'
+      },
+      {
+        id: 62,
+        content: 'bootje 22'
       }
     ]);
 
     // create a dataset with items
     var items = new vis.DataSet();
     var groupIds = groups.getIds();
+    console.log(groupIds);
     var types = [ 'box', 'point', 'range', 'background']
     for (var i = 0; i < itemCount; i++) {
       var start = now.clone().add(Math.random() * 200, 'hours');
@@ -79,7 +136,7 @@ class Timeline extends Component {
         content: 'item ' + i,
         start: start,
         end: end,
-        type: type
+        type: 'range'
       });
     }
 
@@ -90,6 +147,8 @@ class Timeline extends Component {
     };
 
     var timeline = new vis.Timeline(container, items, groups, options); 
+
+    // var day = moment.unix(1318781876);
   }
 
   componentDidUpdate() {
