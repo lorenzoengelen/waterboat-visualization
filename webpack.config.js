@@ -11,7 +11,9 @@ const VENDOR_LIBS = [
   'bootstrap',
   'd3-timeline-chart',
   'vis',
-  'moment'
+  'moment',
+  'redux',
+  'react-redux'
 ];
 
 module.exports = {
