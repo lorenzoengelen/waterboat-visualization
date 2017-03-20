@@ -2,7 +2,9 @@ const _ = require('lodash');
 const router = require('express').Router();
 
 const info = require('../db/info.json');
+const history = require('../db/history.json');
 
+// GET WATERBOAT INFO
 router.route('/waterboats')
   .get((req, res) => {
     let obj = _.reduce(info, (result, boat) => {
@@ -21,8 +23,23 @@ router.route('/waterboats')
       return result;
     }, {});
     
-    res.send(obj);
+    res.json(obj);
   });
 
+// GET TIMESPAN OF DATA AVAILABLE
+router.route('/timespan')
+  .get((req, res) => {
+    let min = _.minBy(history, log => {
+      return log.timeLastUpdate;
+    });
+    let max = _.maxBy(history, log => {
+      return log.timeLastUpdate;
+    });
+
+    res.json({
+      min: min.timeLastUpdate,
+      max: max.timeLastUpdate
+    });
+  });
 
 module.exports = router; 
