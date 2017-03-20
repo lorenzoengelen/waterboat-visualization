@@ -14,7 +14,8 @@ const VENDOR_LIBS = [
   'moment',
   'redux',
   'react-redux',
-  'redux-thunk'
+  'redux-thunk',
+  'axios'
 ];
 
 module.exports = {
