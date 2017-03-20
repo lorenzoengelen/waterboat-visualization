@@ -1,12 +1,19 @@
 const express = require('express');
 const path = require('path');
+const bodyParser = require('body-parser');
+const morgan = require('morgan');
+
+const apiRoutes = require('./server/routes/apiRoutes');
+
 const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-app.get('/hello', (req, res) => {
-  res.send('eak');
-});
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(morgan('dev'));
+
+app.use('/api', apiRoutes);
 
 if (process.env.NODE_ENV !== 'production') {
   const webpackMiddleware = require('webpack-dev-middleware');
