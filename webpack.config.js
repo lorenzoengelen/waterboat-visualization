@@ -13,7 +13,8 @@ const VENDOR_LIBS = [
   'vis',
   'moment',
   'redux',
-  'react-redux'
+  'react-redux',
+  'redux-thunk'
 ];
 
 module.exports = {
