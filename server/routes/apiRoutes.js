@@ -1,8 +1,15 @@
 const _ = require('lodash');
 const router = require('express').Router();
 
+// aggregated API calls
 const info = require('../db/info.json');
 const history = require('../db/history.json');
+
+const waterboats = _.reduce(info, (result, boat) => {
+  let number = boat.name.replace(/\D/g, '');
+  result[number] = boat.mmsi;
+  return result;
+}, {});
 
 // GET WATERBOAT INFO
 router.route('/waterboats')
@@ -40,6 +47,18 @@ router.route('/timespan')
       min: min.timeLastUpdate,
       max: max.timeLastUpdate
     });
+  });
+
+// GET HISTORY OF SPECIFIC WATERBOAT IN SPECIFIC TIMESPAN
+router.route('/history')
+  .post((req, res) => {
+    let {from, to, waterboat} = req.body;
+
+    let filtered = _.filter(history, log => {
+      return log.mmsi === waterboats[waterboat] && log.timeLastUpdate >= from && log.timeLastUpdate <= to;
+    });
+
+    res.json(filtered);
   });
 
 module.exports = router; 
