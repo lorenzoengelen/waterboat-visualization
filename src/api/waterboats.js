@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const instance = axios.create({baseURL: 'http://localhost:3000'});
+
 const getWaterboats = () => {
-  axios.get('/waterboats')
+  instance.get('/api/waterboats')
     .then(function (res) {
       console.log(res);
     })
