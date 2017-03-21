@@ -21,6 +21,13 @@ if (process.env.NODE_ENV !== 'production') {
   const webpackConfig = require('./webpack.config.js');
   app.use(webpackMiddleware(webpack(webpackConfig)));
 
+  // ALLOW CROSS-ORIGIN RESOURCE SHARING
+  app.use((req, res, next) => {  
+    res.header('Access-Control-Allow-Origin', req.headers.origin);
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  }); 
+    
 } else {
   app.use(express.static('dist'));
   app.get('*', (req, res) => {
