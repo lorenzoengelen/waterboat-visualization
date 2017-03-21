@@ -7,7 +7,9 @@ import {
 const waterboats = (state = {}, action) => {
   switch (action.type) {
     case WATERBOATS_FETCH_SUCCESS:
-      return state;
+      return Object.assign({}, state, {
+        waterboats: action.payload
+      });
     default:
       return state;
   }

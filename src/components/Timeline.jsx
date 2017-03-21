@@ -16,7 +16,7 @@ class Timeline extends Component {
     this.el = ReactDom.findDOMNode(this);
     
     var now = moment().minutes(0).seconds(0).milliseconds(0);
-    console.log('now', now);
+    // console.log('now', now);
     var itemCount = 60;
 
     // create a data set with groups
@@ -122,7 +122,7 @@ class Timeline extends Component {
     // create a dataset with items
     var items = new vis.DataSet();
     var groupIds = groups.getIds();
-    console.log(groupIds);
+    // console.log(groupIds);
     var types = [ 'box', 'point', 'range', 'background']
     for (var i = 0; i < itemCount; i++) {
       var start = now.clone().add(Math.random() * 200, 'hours');
