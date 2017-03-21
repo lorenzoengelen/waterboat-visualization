@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import catalog from './waterboats';
+import waterboats from './waterboats';
 
 const rootReducer = combineReducers({
-  
+  waterboats
 });
 
 export default rootReducer;
